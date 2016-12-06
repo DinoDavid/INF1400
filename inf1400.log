@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.13)  6 DEC 2016 22:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.13)  6 DEC 2016 22:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1073,39 +1073,46 @@ Package pdftex.def Info: OPPned.jpg used on input line 757.
 <nMOSserie.jpg, id=574, 459.7175pt x 228.855pt>
 File: nMOSserie.jpg Graphic file (type jpg)
  <use nMOSserie.jpg>
-Package pdftex.def Info: nMOSserie.jpg used on input line 767.
+Package pdftex.def Info: nMOSserie.jpg used on input line 765.
 (pdftex.def)             Requested size: 275.83263pt x 137.31404pt.
  [45 <./OPPned.jpg>] <pMOSpara.jpg, id=581, 406.51875pt x 344.28625pt>
 File: pMOSpara.jpg Graphic file (type jpg)
  <use pMOSpara.jpg>
-Package pdftex.def Info: pMOSpara.jpg used on input line 774.
+Package pdftex.def Info: pMOSpara.jpg used on input line 772.
 (pdftex.def)             Requested size: 243.91312pt x 206.57333pt.
 
 <pMOSserie.jpg, id=582, 419.5675pt x 226.8475pt>
 File: pMOSserie.jpg Graphic file (type jpg)
  <use pMOSserie.jpg>
-Package pdftex.def Info: pMOSserie.jpg used on input line 781.
+Package pdftex.def Info: pMOSserie.jpg used on input line 779.
 (pdftex.def)             Requested size: 251.74243pt x 136.10954pt.
  [46 <./nMOSserie.jpg> <./pMOSpara.jpg>]
 File: pMOSpara.jpg Graphic file (type jpg)
  <use pMOSpara.jpg>
-Package pdftex.def Info: pMOSpara.jpg used on input line 788.
+Package pdftex.def Info: pMOSpara.jpg used on input line 786.
 (pdftex.def)             Requested size: 243.91312pt x 206.57333pt.
  [47 <./pMOSserie.jpg>]
 <CMOSeks.jpg, id=595, 269.005pt x 388.45125pt>
 File: CMOSeks.jpg Graphic file (type jpg)
  <use CMOSeks.jpg>
-Package pdftex.def Info: CMOSeks.jpg used on input line 802.
+Package pdftex.def Info: CMOSeks.jpg used on input line 800.
 (pdftex.def)             Requested size: 161.40424pt x 233.07254pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 808.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 806.
  [48 <./CMOSeks.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 808.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 806.
  (./inf1400.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 808.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 808.
-Package rerunfilecheck Info: File `inf1400.out' has not changed.
-(rerunfilecheck)             Checksum: BCBA3AC27096FB04063A80AD39882390;3852.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 808.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 806.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 806.
+
+
+Package rerunfilecheck Warning: File `inf1400.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `inf1400.out':
+(rerunfilecheck)             Before: BCBA3AC27096FB04063A80AD39882390;3852
+(rerunfilecheck)             After:  DC0C88CC3FAE6A440A559791BEF66C24;3772.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 806.
  ) 
 Here is how much of TeX's memory you used:
  8364 strings out of 493029
@@ -1115,18 +1122,21 @@ Here is how much of TeX's memory you used:
  9425 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,8n,35p,433b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb>
-Output written on inf1400.pdf (48 pages, 1710159 bytes).
+pdfTeX warning (dest): name{subsubsection.8.4.1} has been referenced but does
+ not exist, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+7.pfb>
+Output written on inf1400.pdf (48 pages, 1710131 bytes).
 PDF statistics:
  675 PDF objects out of 1000 (max. 8388607)
  556 compressed objects within 6 object streams
