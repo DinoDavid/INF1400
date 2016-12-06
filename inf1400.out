@@ -40,5 +40,16 @@
 \BOOKMARK [2][-]{subsection.6.5}{Ubrukte tilstander}{section.6}% 40
 \BOOKMARK [2][-]{subsection.6.6}{Designprosedyre\(basert p\345 D flip-floper\)}{section.6}% 41
 \BOOKMARK [2][-]{subsection.6.7}{Eksempel}{section.6}% 42
-\BOOKMARK [1][-]{section.7}{Datamaskinarkitektur:}{}% 43
-\BOOKMARK [1][-]{section.8}{CMOS:}{}% 44
+\BOOKMARK [1][-]{section.7}{Datamaskinarkitektur}{}% 43
+\BOOKMARK [2][-]{subsection.7.1}{Pipelining}{section.7}% 44
+\BOOKMARK [3][-]{subsubsection.7.1.1}{ERROR 404 - Pipeline}{subsection.7.1}% 45
+\BOOKMARK [1][-]{section.8}{CMOS - Komplement\346r metalloksidhalvleder}{}% 46
+\BOOKMARK [2][-]{subsection.8.1}{Transistor som bryter}{section.8}% 47
+\BOOKMARK [3][-]{subsubsection.8.1.1}{nMOS}{subsection.8.1}% 48
+\BOOKMARK [3][-]{subsubsection.8.1.2}{pMOS}{subsection.8.1}% 49
+\BOOKMARK [3][-]{subsubsection.8.1.3}{pMOS + cMOS}{subsection.8.1}% 50
+\BOOKMARK [2][-]{subsection.8.2}{MOS transistorer}{section.8}% 51
+\BOOKMARK [2][-]{subsection.8.3}{Fakta og regler}{section.8}% 52
+\BOOKMARK [2][-]{subsection.8.4}{Kombinatorisk logikk}{section.8}% 53
+\BOOKMARK [3][-]{subsubsection.8.4.1}{Serie og parallelkobling}{subsection.8.4}% 54
+\BOOKMARK [2][-]{subsection.8.5}{Komplement\346r logikk}{section.8}% 55

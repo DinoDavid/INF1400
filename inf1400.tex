@@ -167,7 +167,7 @@
 	
 	Mintermer har notasjon $m_x$
 	
-	$F\textcolor{Violet}{(x,y,z)} = \sum\textcolor{Violet}{(m_3, m_6)} = \sum\textcolor{Violet}{(3, 6)} = \textcolor{Violet}{ x'yz' + xyz'} $
+	$F\textcolor{Violet}{(x,y,z)} = \sum\textcolor{Violet}{(m_3, m_6)} = \sum\textcolor{Violet}{(3, 6)} = \textcolor{Violet}{ x'yz + xyz'} $
 	
 	Makstermer har notasjon $M_x$
 	
@@ -646,8 +646,7 @@
 	 
 	 Slik kan vi redusere tilstandene.
 	 
-	 
-	
+	 	
 	\subsection{Tilordning av tilstandskoder}
 	\begin{figure}[H]
 		\includegraphics[scale = 0.6]{tilordning.jpg}
@@ -668,9 +667,142 @@
 	
 	\subsection{Eksempel}
 	
-	\section{Datamaskinarkitektur:}
+	\section{Datamaskinarkitektur}
+	\subsection{Pipelining}
 	
-	\section{CMOS:}
+	Innfører samlebåndsprinsipp for eksekvering av instruksjoner
+	
+	Hver instruksjon må splittes opp i uavhengige deler(subinstruksjonener) som utføres etter hverandre
+	
+	Hver subinstruksjon kan utføres uavhengig av de andre subinstruksjonene 
+	
+	Neste instruksjon settes i gang før forrige instruksjon er helt ferdig.
+	
+	Hver instruksjon tar like lang tid å utføre, men prosessoren utfører flere instruksjoner i et gitt tidsrom. 
+	
+	En 4-trinns pipeline er den korteste som finnes for en CPU
+	Men det å ha en 4-trinns pipeline betyr ikke at man får 4 ganger raskere prosessering. Det går alltid bort noe tid til administrering av instruksjoner.
+	
+	\subsubsection{ERROR 404 - Pipeline}
+	
+	Til enhver tid kan det være subinstruksjoner fra opptil 4 instruksjoner i en pipeline
+	
+	Noen ganger er ikke alle subinstruksjonene gyldige 
+	
+	Neste instruksjon kan ikke eksekveres rett etter hvis hopp-betingelsen slår til, noe som kalles HAZARD
+	
+	Det er tre typer HAZARD:
+	
+	-Resource Hazard
+	
+	-Data Hazard
+	
+	-Control Hazard
+	
+	
+	\section{CMOS - Komplementær metalloksidhalvleder}
+	
+	\subsection{Transistor som bryter}
+	\subsubsection{nMOS}
+	En nMOS transistor har tre terminaler; Gate(inngang), Source og Drain. En nMOS transistor kan betraktes som en bryter, avhengig av inngang vil det kunne gå strøm mellom drain og source. Når inngangen er 0 går det ingen strøm mellom drain og source, og vi sier at transistoren er AV. Når inngangen er 1 kan det gå strøm mellom drain og source, og vi sier at transistoren er På.
+	
+	Lavest spenning - Source
+	
+	Høyest spenning - Drain
+	
+	En positiv strøm vil alltid gå fra drain til source.
+	
+	\subsubsection{pMOS}
+	
+	En pMOS transistor har også tre like terminaler akkurat som pMOS. Når inngangen er logisk 0 kan det gå strøm mellom source og drain, og vi sier at transisitoren er PÅ. Når inngangen er logisk 1 går det ingen strøm mellom source og drain, og vi sier at transistoren er AV.
+	
+	Høyest spenning - Source
+	
+	Lavest spenning - Drain
+	
+	En positiv strøm vil alltid gå fra source til drain.
+	
+	\subsubsection{pMOS + cMOS}
+	
+	Dersom vi setter en pMOS og en nMOS transistor sammen og kobler til spenningsreferansene Vdd og Vss får vi en CMOS inverter.
+	
+	CMOS teknologi er med andre ord grunnleggende inverterende.
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{CMOSinv.jpg}
+		\caption{Inverter skjematikk og sannhetstabell}
+	\end{figure}
 		
-			
+	\subsection{MOS transistorer}
+	MOSFET - Metal On Semiconductor Field Effect Transistor - er integrerte transistorer.
+	
+	nMOS - fordi Source og Drain terminalene er koblet til n-type silisium.
+	Disse områdene kalles for diffusjon og er kraftig dopet med et stort antall frie elektroner. Diffusjonsområdene ligger i en svakt dopet silisium halvleder som kalles substrat.Mellom gates og p-substrat er det et isolerende sjikt som separerer gaten fra substrat slik at det ikke skal gå strøm mellom gate og substrat.
+	
+	pMOS - fordi Source og Drain terminalene er koblet til p-type silisium. Disse områdenen kalles diffusjon og er kraftig dopet med et stort antall frie hull. Ved å sette på en positiv spenning(logisk 1) på gate terminalen vil elektroner tiltrekkes overfalten på halvlederen og invertere p-substrat til n-positiv substrat.
+	
+	\subsection{Fakta og regler}
+	
+	Det er vanlig i digital CMOS å benytte minimumsstørrelser på ulike strukturer, dette medfører et redusert arel og mindre tidsforsinkelse. Liten tidsforsinkelse gir raske kretser som kan fungere med svært høye klokkefrekvenser.
+	
+	Vi definerer opptrekksnettverk og nedtrekksnettverk som på dersom det finnes en strømvei mellom utgangen og spenningsreferesne, Vdd(1) og GND(0).
+	
+	Et nedtrekk er PÅ dersom det finnes en serie av nMOS transistorer som alle er PÅ og som forbinder utgangen med GND, i motsatt tilfelle er nedtrekk AV.
+	
+	For et opptrekk som er PÅ finnes det en serie av pMOS transistorer som alle er PÅ og som forbinder utgangen med Vdd, i motsatt tilfelle er opptrekket AV.
+	
+	I komplementær CMOS logikk vil alltid en og bare en av opptrekk- og nedtrekksnettverkee være på.
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{OPPned.jpg}
+		\caption{Generell logisk port med opptrekk bestående av pMOS transistorer og nedtrekk bestående av nMOS transistorer}
+	\end{figure}
+	
+	\subsection{Kombinatorisk logikk}
+	
+	\subsubsection{Serie og parallelkobling}
+	nMOS i serie = NAND dersom GND = 0 på minst en inngang, A*B
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{nMOSserie.jpg}
+		\caption{nMOS transistorer i serie}
+	\end{figure}
+	
+	nMOS i parallell = NOR dersom Vdd = 1 på minst en inngang, A+B
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{pMOSpara.jpg}
+		\caption{pMOS transistorer i parallellkobling}
+	\end{figure}
+	
+	pMOS i serie = NOR dersom Vdd = 1 på minst en inngang, A+B
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{pMOSserie.jpg}
+		\caption{pMOS transistorer i serie}
+	\end{figure}
+	
+	pMOS i parallell = NAND dersom GND = 0 på minst en inngang, A*B
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{pMOSpara.jpg}
+		\caption{pMOS transistorer i parallellkobling}
+	\end{figure}
+	
+	\subsection{Komplementær logikk}
+	
+	Eks på en funksjon implementert ved CMOS
+	$Y = (A \times B) + (C \times D) NOT$
+	
+	Nedtrekket vil bestå av nMOS transistorer og vi har at Y bare kan bli 0 når $(A \times B) + (C \times D) = 1$ Som forutsetter at A*B eller C*D er på. Nedtrekket må da bestå av to grener med seriekoblete nMOS transistorer.
+	
+	Opptrekket vi bestå av pMOS transistorer og vi har at Y bare kan bli 1 når $(A \times B) + (C \times D) = 0$ Som forutsetter at A og/eller B $(A \times B = 0)$ og C og/eller D $(C \times D = 0)$ er PÅ, altså 0. Opptrekket må da bestå av to grener med	parallellkoblete pMOS transistorer. Til slutt må disse to parallellgrenen settes i serie slik at forutsetningen for opptrekket blir oppflyt.
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{CMOSeks.jpg}
+		\caption{Komplementær CMOS port for funksjonen $Y = (A \times B)+(C \times D) NOT$}
+	\end{figure}
+	
+	
+	
 \end{document}
