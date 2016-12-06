@@ -413,15 +413,273 @@
 	Utgangsverdiene er entydig gitt av nåværende kombinasjon av inngangsverdier.
 	
 	Sekvensiell logikk:
-	Inneholder hukommelse (låsekretser) Utgangsverdiene er gitt av nåværende kombinasjon av inngangsverdier,  samt sekvensen av tidligere inngangs-­/utgangsverdier.
+	Inneholder hukommelse (låsekretser). Utgangsverdiene er gitt av nåværende kombinasjon av inngangsverdier,  samt sekvensen av tidligere inngangs-­/utgangsverdier.
 	
+	Mekaniske brytere gir ikke “rene”  logiske nivå ut i
+	overgangsfasen.  Slike signaler  må ofte “renses”  ved bruk
+	av låsekretser.
+	
+	I synkrone  sekvensielle kretser skjer endringen(e) i output  samtidig  med endringen i et  klokkesignal. 
+	 
+	I  asynkrone  sekvensielle kretser skjer endringen(e) i  output  uten  noe  klokkesignal.  
+	 
+	Nesten alle kretser er synkrone.
+	 
+	Et klokkesignal er et digitalt signal som veksler mellom 0 og 1 med fast takt. 
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{flanke.jpg}
+		\caption{Flanker}
+	\end{figure}
+	 
+	Ønsker så høy klokkefrekvens som mulig, for at hver enkelt operasjon bruker så kort tid som mulig
+	 
+	Maksimal klokkefrekvens bestemmes av:
+	 - Lengde på singalveiene
+	 - Last
+	 - Forsinkelsene gjennom porter(delay)
+	 - Teknologi
+	 
+	\subsection*{Logisk dybde}
+	Antall proter et singal passerer fra inngang til utgang, ved å redusere dette minsker forsinkelsen gjennom kretsen.
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{klokking.jpg}
+		\caption{Klokking}
+	\end{figure}
+	
+	\subsection*{Latcher(låsekretser):}
+	De ulike latchene:
+	
+	\textbf{SR - Latch}
+	
+	Set Reset - Latch
+	
+	Setter Q  til ”1”  hvis den får ”1”  på inngang S. 
+	
+	Når inngang S går tilbake til ”0” skal Q forbli på ”1”
+		
+	Kretsen skal resette Q  til ”0”  når den får ”1”  på inngang R.
+	
+	Når inngang R går tilbake til ”0”  skal Q  forbli på ”0”
+	
+	Tilstanden ”1”  på både S  og R  brukes	normalt ikke
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{srlatch.png}
+		\caption{SR-Latch med NAND}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{srL.png}
+		\caption{SR-Latch med 2 NOR}
+	\end{figure}
+	
+	\textbf{D - Latch}
+	
+	Data - Latch
+		
+	Dataflyten gjennom en  D-­latch  kontrolleres av et  klokkesignal
+	
+	Slipper  gjennom et  digital  signal  så lenge klokkeinngangen er “1” (transparent)
+	
+	I  det øyeblikket klokkeinngangen går fra “1”  til “0”  låser utgangen seg på sin nåværende verdi.  
+	
+	Forandringer på	inngangen vil ikke påvirke utgangsverdien så lenge klokkesignalet er “0”
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{dL.png}
+		\caption{D-Latch}
+	\end{figure}
+	
+	
+	\subsection*{Flip-Floper:}
+	Et 1-bits hukommelseselement som kan	lagre ett bit kalles en flip-flop
+	
+	En ny verdi kan	bare leses inn og lagres når klokkesignalet går fra 0 til 1 (eller 1 til 0, avhengig av konstruksjonen)
+	
+	En flip-flop’er har	enten en eller to innganger (pluss klokkesignal) og en utgang
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{flip-flop.jpg}
+		\caption{Typer Flip-floper}
+	\end{figure}
+	
+	Flip-­Flop’er kommer  i  to  varianter:
+	
+	• Positiv flanketrigget
+	
+	• Negativ flanketrigget
+	
+	På  en  positiv  flanketrigget  Flip-­Flop kan  utgangen  kun  
+	skifte  verdi  i  det  øyeblikk  klokkesignalet  går  fra ”0”  til ”1”.
+	
+	På  en  negativ  flanketrigget  Flip-­Flop  kan  utgangen  
+	kun  skifte  verdi  i  det  øyeblikk  klokkesignalet  går  fra
+	”1”  til ”0”.
+	
+	De ulike Flip-Flopene:
+	
+	\textbf{SR - Flip-flop}
+	Set Reset - Flip-Flop
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{srFlip.jpg}
+		\caption{Kretsoppbygging til en SR-Flip-Flop}
+	\end{figure}
+	
+	\textbf{JK - Flip-flop}
+	J(Set) K(Reset) - Flip-Flop
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{jkFlip.jpg}
+		\caption{Kretsoppbygging til en JK-Flip-Flop}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{jkFlip2.jpg}
+		\caption{Typer Flip-floper}
+	\end{figure}
+	
+	\textbf{D - Flip-flop}
+	Data - Flip-Flop
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{dFlip.jpg}
+		\caption{Kretsoppbygning til en D-Flip-Flop}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{dFlip2.jpg}
+		\caption{Kretsoppbygning til en D-Flip-Flop}
+	\end{figure}
+	
+	\textbf{T - Flip-flop}
+	Toggle - Flip-Flop
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{tFlip.jpg}
+		\caption{T - Flip-Flop}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{tFlip2.jpg}
+		\caption{T - Flip-Flop}
+	\end{figure}
 	
 	
 	\section*{Tilstandsmaskiner:}
+	Tilstandsmaskiner er en metode til å beskrive systemer med logisk og dynamisk (tidsmessig) oppførsel. 
+	
+	En tilstandsmaskin er et sekvensielt system som gjennomløper et sett med tilstander styrt av verdiene på inngangssignalene 
+	
+	Brukes mye innen: 
+	
+	–Logiske/digitale styresystemer 
+	
+	–Sanntidssystemer 
+	
+	–Telekommunikasjon 
+	
+	–Kompilatorteknikk 
+	
+	–Digitalteknikk 
+	
+	Modellen av en tilstandsmaskin:
+	
+	-Tilstander
+	
+	er et begrep som benyttes til å beskrive systemets tilstand. 
+	 
+	er et verdisett/attributter som beskriver systemets egenskaper
+	
+	- Hendelser
+	
+	endrer systemet fra en tilstand til en annen
+	
+	er et begrep som benyttes om innganger/påvirkninger på 
+	systemet 
+
+	kan beskrives som en plutselig og kortvarig påvirkning av 
+	systemet. 
+	
+	- Aksjoner
+	
+	er det som kommer ut av systemet(resultatet)
+	er en respons på en hendelse 
+
+	
+	\subsection*{Tilstandstabell}
+	Sannhetstabell for tilstandsmaskiner
+	
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{ekstil.jpg}
+		\caption{Eksempel på en tilstandstabell fra oblig 2}
+	\end{figure}
+	
+	\subsection*{Tilstandsdiagram}
+	
+	For å visualisere oppførselen til systemer brukes gjerne tilstandsdiagramer
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{tilstanddiagram.jpg}
+		\caption{Tilstandsdiagram}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{tilstanddiagram.jpg}
+		\caption{Tilstandsdiagram}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{tilstandeks.jpg}
+		\caption{Eksempel på en tilstandsdiagram}
+	\end{figure}
+	
+	\subsection*{Reduksjon av antall tilstander}
+	 Hvis to tilstander har samme utgangssignal, samt leder til de samme nye tilstandene gitt like inngangsverdier,
+	 er de to opprinnelige tilstandene like. En tilstand som er lik en annen tilstand kan fjernes
+	 
+	 Eksempel:
+	 \begin{figure}[H]
+	 	\includegraphics[scale = 0.6]{red.jpg}
+	 	\caption{Eksempel på reduksjon av tilstander}
+	 \end{figure}
+	 
+	 Vi ser at tilstand G er lik E
+	 
+	 Vi kan fjerne tilstand G og erstatte hopp til G med hopp til E
+	 
+	 Etter det ser vi at tilstand F blir lik D, da fjerner vi F
+	 
+	 Slik kan vi redusere tilstandene.
+	 
+	 
+	
+	\subsection*{Tilordning av tilstandskoder}
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{tilordning.jpg}
+		\caption{Tilordning av tilstandskoder}
+	\end{figure}
+	
+	\subsection*{Ubrukte tilstander}
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{ubrukt.jpg}
+		\caption{Ubrukte tilstander}
+	\end{figure}
+	
+	\subsection*{Designprosedyre(basert på D flip-floper)}
+	\begin{figure}[H]
+		\includegraphics[scale = 0.6]{prosedyre.jpg}
+		\caption{Designprosedyre}
+	\end{figure}
+	
+	\subsection*{Eksempel}
 	
 	\section*{Datamaskinarkitektur:}
 	
-	\section*{CMOS}
+	\section*{CMOS:}
 		
 			
 \end{document}

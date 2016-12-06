@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.13)  14 NOV 2016 13:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.13)  6 DEC 2016 12:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -776,30 +776,200 @@ File: DEMUX.jpg Graphic file (type jpg)
 <use DEMUX.jpg>
 Package pdftex.def Info: DEMUX.jpg used on input line 402.
 (pdftex.def)             Requested size: 198.14177pt x 154.77943pt.
- [20 <./MUX2.jpg> <./DEMUX.jpg>] [21] (./inf1400.aux) ) 
+ [20 <./MUX2.jpg> <./DEMUX.jpg>]
+<flanke.jpg, id=102, 362.35374pt x 138.5175pt>
+File: flanke.jpg Graphic file (type jpg)
+ <use flanke.jpg>
+Package pdftex.def Info: flanke.jpg used on input line 431.
+(pdftex.def)             Requested size: 217.41393pt x 83.11113pt.
+
+<klokking.jpg, id=103, 677.53125pt x 410.53375pt>
+File: klokking.jpg Graphic file (type jpg)
+ <use klokking.jpg>
+Package pdftex.def Info: klokking.jpg used on input line 447.
+(pdftex.def)             Requested size: 406.52188pt x 246.32214pt.
+
+Overfull \hbox (61.52188pt too wide) in paragraph at lines 447--448
+[][] 
+ []
+
+[21 <./flanke.jpg>] <srlatch.png, id=107, 200.75pt x 125.46875pt>
+File: srlatch.png Graphic file (type png)
+
+<use srlatch.png>
+Package pdftex.def Info: srlatch.png used on input line 469.
+(pdftex.def)             Requested size: 120.45091pt x 75.28181pt.
+ [22 <./klokking.jpg>]
+<srL.png, id=112, 464.73625pt x 168.63pt>
+File: srL.png Graphic file (type png)
+ <use srL.png>
+Package pdftex.def Info: srL.png used on input line 474.
+(pdftex.def)             Requested size: 278.84389pt x 101.17877pt.
+
+<dL.png, id=113, 541.02126pt x 454.69875pt>
+File: dL.png Graphic file (type png)
+ <use dL.png>
+Package pdftex.def Info: dL.png used on input line 491.
+(pdftex.def)             Requested size: 324.61525pt x 272.82135pt.
+ [23 <./srlatch.png> <./srL.png (PNG copy)>] <flip-flop.jpg, id=118, 634.37pt x
+ 680.5425pt>
+File: flip-flop.jpg Graphic file (type jpg)
+
+<use flip-flop.jpg>
+Package pdftex.def Info: flip-flop.jpg used on input line 504.
+(pdftex.def)             Requested size: 380.62492pt x 408.32864pt.
+
+Overfull \hbox (35.62492pt too wide) in paragraph at lines 504--505
+[][] 
+ []
+
+[24 <./dL.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 510.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 510.
+
+[25 <./flip-flop.jpg>] <srFlip.jpg, id=126, 298.11375pt x 356.0803pt>
+File: srFlip.jpg Graphic file (type jpg)
+
+<use srFlip.jpg>
+Package pdftex.def Info: srFlip.jpg used on input line 527.
+(pdftex.def)             Requested size: 178.86963pt x 213.64983pt.
+ <jkFlip.jpg, id=127, 556.0775pt x 308.15125pt>
+File: jkFlip.jpg Graphic file (type jpg)
+
+<use jkFlip.jpg>
+Package pdftex.def Info: jkFlip.jpg used on input line 535.
+(pdftex.def)             Requested size: 333.64908pt x 184.89217pt.
+ [26 <./srFlip.jpg>]
+<jkFlip2.jpg, id=131, 234.8775pt x 436.63126pt>
+File: jkFlip2.jpg Graphic file (type jpg)
+ <use jkFlip2.jpg>
+Package pdftex.def Info: jkFlip2.jpg used on input line 540.
+(pdftex.def)             Requested size: 140.92758pt x 261.98077pt.
+
+<dFlip.jpg, id=132, 592.2125pt x 398.48875pt>
+File: dFlip.jpg Graphic file (type jpg)
+ <use dFlip.jpg>
+Package pdftex.def Info: dFlip.jpg used on input line 548.
+(pdftex.def)             Requested size: 355.33023pt x 239.0951pt.
+
+Overfull \hbox (10.33023pt too wide) in paragraph at lines 548--549
+[][] 
+ []
+
+[27 <./jkFlip.jpg> <./jkFlip2.jpg>]
+<dFlip2.jpg, id=136, 318.43968pt x 430.60875pt>
+File: dFlip2.jpg Graphic file (type jpg)
+ <use dFlip2.jpg>
+Package pdftex.def Info: dFlip2.jpg used on input line 553.
+(pdftex.def)             Requested size: 191.06528pt x 258.36723pt.
+ [28 <./dFlip.jpg>] <tFlip.jpg, id=140, 665.48625pt x 421.575pt>
+File: tFlip.jpg Graphic file (type jpg)
+ <use tFlip.jpg>
+Package pdftex.def Info: tFlip.jpg used on input line 561.
+(pdftex.def)             Requested size: 399.29483pt x 252.94695pt.
+
+Overfull \hbox (54.29483pt too wide) in paragraph at lines 561--562
+[][] 
+ []
+
+[29 <./dFlip2.jpg>] <tFlip2.jpg, id=144, 266.49562pt x 410.2828pt>
+File: tFlip2.jpg Graphic file (type jpg)
+
+<use tFlip2.jpg>
+Package pdftex.def Info: tFlip2.jpg used on input line 566.
+(pdftex.def)             Requested size: 159.89859pt x 246.17157pt.
+ [30 <./tFlip.jpg>] [31 <./tFlip2.jpg>]
+<ekstil.jpg, id=152, 350.30875pt x 679.53876pt>
+File: ekstil.jpg Graphic file (type jpg)
+ <use ekstil.jpg>
+Package pdftex.def Info: ekstil.jpg used on input line 617.
+(pdftex.def)             Requested size: 210.18686pt x 407.72641pt.
+ [32]
+<tilstanddiagram.jpg, id=156, 554.07pt x 232.87pt>
+File: tilstanddiagram.jpg Graphic file (type jpg)
+ <use tilstanddiagram.jpg>
+Package pdftex.def Info: tilstanddiagram.jpg used on input line 626.
+(pdftex.def)             Requested size: 332.44456pt x 139.72307pt.
+
+[33 <./ekstil.jpg>]
+File: tilstanddiagram.jpg Graphic file (type jpg)
+ <use tilstanddiagram.jpg>
+Package pdftex.def Info: tilstanddiagram.jpg used on input line 631.
+(pdftex.def)             Requested size: 332.44456pt x 139.72307pt.
+
+<tilstandeks.jpg, id=160, 614.295pt x 286.06876pt>
+File: tilstandeks.jpg Graphic file (type jpg)
+ <use tilstandeks.jpg>
+Package pdftex.def Info: tilstandeks.jpg used on input line 636.
+(pdftex.def)             Requested size: 368.57983pt x 171.64258pt.
+
+Overfull \hbox (23.57983pt too wide) in paragraph at lines 636--637
+[][] 
+ []
+
+[34 <./tilstanddiagram.jpg>] <red.jpg, id=164, 515.9275pt x 432.61626pt>
+File: red.jpg Graphic file (type jpg)
+
+<use red.jpg>
+Package pdftex.def Info: red.jpg used on input line 646.
+(pdftex.def)             Requested size: 309.55888pt x 259.57176pt.
+ [35 <./tilstandeks.jpg>]
+<tilordning.jpg, id=168, 695.59875pt x 379.4175pt>
+File: tilordning.jpg Graphic file (type jpg)
+ <use tilordning.jpg>
+Package pdftex.def Info: tilordning.jpg used on input line 662.
+(pdftex.def)             Requested size: 417.36247pt x 227.65225pt.
+
+Overfull \hbox (72.36247pt too wide) in paragraph at lines 662--663
+[][] 
+ []
+
+[36 <./red.jpg>] <ubrukt.jpg, id=172, 715.67375pt x 373.395pt>
+File: ubrukt.jpg Graphic file (type jpg)
+
+<use ubrukt.jpg>
+Package pdftex.def Info: ubrukt.jpg used on input line 668.
+(pdftex.def)             Requested size: 429.40756pt x 224.03873pt.
+
+Overfull \hbox (84.40756pt too wide) in paragraph at lines 668--669
+[][] 
+ []
+
+[37 <./tilordning.jpg>] <prosedyre.jpg, id=177, 559.08875pt x 336.25626pt>
+File: prosedyre.jpg Graphic file (type jpg)
+
+<use prosedyre.jpg>
+Package pdftex.def Info: prosedyre.jpg used on input line 674.
+(pdftex.def)             Requested size: 335.45583pt x 201.75531pt.
+ [38 <./ubrukt.jpg>] [39 <./prosedyre.jpg>] (./inf1400.aux) ) 
 Here is how much of TeX's memory you used:
- 4499 strings out of 493029
- 59118 string characters out of 6136234
+ 4616 strings out of 493029
+ 60870 string characters out of 6136234
  131944 words of memory out of 5000000
- 7953 multiletter control sequences out of 15000+600000
+ 8047 multiletter control sequences out of 15000+600000
  9425 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,8n,35p,237b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on inf1400.pdf (21 pages, 812931 bytes).
+</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on inf1400.pdf (39 pages, 1585627 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
+ 223 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 
