@@ -1,0 +1,44 @@
+\contentsline {section}{\numberline {1}Digital representasjon og bin\IeC {\ae }r logikk:}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Tallsystemer:}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Konvertering:}{3}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Konvertering fra grunntall r til desimaltall:}{3}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Konvertering av desimal til bin\IeC {\ae }r:}{3}{subsubsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.3}Konvertering fra desimal til grunntall \IeC {\textquotedblleft }r\IeC {\textquotedblright }:}{4}{subsubsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.4}Sannhetstabell:}{4}{subsubsection.1.2.4}
+\contentsline {subsection}{\numberline {1.3}Huntington's postulater}{6}{subsection.1.3}
+\contentsline {section}{\numberline {2}Boolsk algebra:}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}Boolske funksjoner med sannhetstabell}{8}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Forenkling av uttryk}{8}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Maksterm/Minterm}{9}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Minterm:}{10}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Maksterm:}{10}{subsubsection.2.3.2}
+\contentsline {subsection}{\numberline {2.4}Designprosedyre }{11}{subsection.2.4}
+\contentsline {section}{\numberline {3}Karnaugh diagram:}{11}{section.3}
+\contentsline {section}{\numberline {4}Kobinatorisk logikk:}{13}{section.4}
+\contentsline {subsection}{\numberline {4.1}Bin\IeC {\ae }r addisjon:}{13}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Bin\IeC {\ae }r substraksjon:}{14}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Bin\IeC {\ae }re addere:}{15}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Halvadder:}{15}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}Fulladder:}{15}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}Et adder system}{16}{subsubsection.4.3.3}
+\contentsline {subsection}{\numberline {4.4}\IeC {\textquotedblright }Carry Lookahead\IeC {\textquotedblright }}{17}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Komparator:}{17}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Dekoder:}{19}{subsection.4.6}
+\contentsline {subsection}{\numberline {4.7}Enkoder:}{19}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}Multiplekser (MUX):}{20}{subsection.4.8}
+\contentsline {subsection}{\numberline {4.9}Demulitplekser:}{21}{subsection.4.9}
+\contentsline {subsection}{\numberline {4.10}Aritmetisk logisk enhet (ALU):}{21}{subsection.4.10}
+\contentsline {section}{\numberline {5}Sekvensiell logikk:}{22}{section.5}
+\contentsline {subsection}{\numberline {5.1}Logisk dybde}{22}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Latcher(l\IeC {\r a}sekretser):}{23}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Flip-Floper:}{25}{subsection.5.3}
+\contentsline {section}{\numberline {6}Tilstandsmaskiner:}{32}{section.6}
+\contentsline {subsection}{\numberline {6.1}Tilstandstabell}{33}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Tilstandsdiagram}{34}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Reduksjon av antall tilstander}{36}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Tilordning av tilstandskoder}{38}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Ubrukte tilstander}{39}{subsection.6.5}
+\contentsline {subsection}{\numberline {6.6}Designprosedyre(basert p\IeC {\r a} D flip-floper)}{40}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.7}Eksempel}{40}{subsection.6.7}
+\contentsline {section}{\numberline {7}Datamaskinarkitektur:}{40}{section.7}
+\contentsline {section}{\numberline {8}CMOS:}{40}{section.8}

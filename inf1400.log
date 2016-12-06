@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.13)  6 DEC 2016 12:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.13)  6 DEC 2016 13:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -479,74 +479,161 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
-)) (./inf1400.aux)
-\openout1 = `inf1400.aux'.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-\c@lstlisting=\count109
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count110
-\scratchdimen=\dimen118
-\scratchbox=\box32
-\nofMPsegments=\count111
-\nofMParguments=\count112
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count113
-\MPscratchDim=\dimen119
-\MPnumerator=\count114
-\makeMPintoPDFobject=\count115
-\everyMPtoPDFconversion=\toks26
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-)))
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen118
+\Hy@linkcounter=\count109
+\Hy@pagecounter=\count110
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count111
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count112
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen119
+\Fld@menulength=\count113
+\Field@Width=\dimen120
+\Fld@charsize=\dimen121
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count114
+\c@Item=\count115
+\c@Hfootnote=\count116
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count117
+\c@bookmark@seq@number=\count118
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip46
+)
+(./inf1400.aux)
+\openout1 = `inf1400.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+\c@lstlisting=\count119
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count120
+\scratchdimen=\dimen122
+\scratchbox=\box32
+\nofMPsegments=\count121
+\nofMParguments=\count122
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count123
+\MPscratchDim=\dimen123
+\MPnumerator=\count124
+\makeMPintoPDFobject=\count125
+\everyMPtoPDFconversion=\toks26
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
@@ -556,420 +643,455 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+esint on input line 18.
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring OFF on input line 16.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count126
+)
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
+
+(./inf1400.out) (./inf1400.out)
+\@outlinefile=\write3
+\openout3 = `inf1400.out'.
+
+LaTeX Font Info:    Try loading font information for U+esint on input line 20.
 
 (/usr/share/texlive/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
-) [1
+) (./inf1400.toc
+[1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<GATES.jpg, id=19, 1204.5pt x 571.13374pt>
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+\tf@toc=\write4
+\openout4 = `inf1400.toc'.
+
+ [2] [3]
+<GATES.jpg, id=249, 1204.5pt x 571.13374pt>
 File: GATES.jpg Graphic file (type jpg)
  <use GATES.jpg>
-Package pdftex.def Info: GATES.jpg used on input line 99.
+Package pdftex.def Info: GATES.jpg used on input line 90.
 (pdftex.def)             Requested size: 421.58131pt x 199.8998pt.
 
-Overfull \hbox (76.58131pt too wide) in paragraph at lines 99--100
+Overfull \hbox (76.58131pt too wide) in paragraph at lines 90--91
 [][] 
  []
 
-<NAND.jpg, id=20, 354.32375pt x 624.3325pt>
+<NAND.jpg, id=250, 354.32375pt x 624.3325pt>
 File: NAND.jpg Graphic file (type jpg)
  <use NAND.jpg>
-Package pdftex.def Info: NAND.jpg used on input line 104.
+Package pdftex.def Info: NAND.jpg used on input line 95.
 (pdftex.def)             Requested size: 354.32288pt x 624.33098pt.
 
-Overfull \hbox (9.32288pt too wide) in paragraph at lines 104--105
+Overfull \hbox (9.32288pt too wide) in paragraph at lines 95--96
 [][] 
  []
 
-[3 <./GATES.jpg>]
+[4 <./GATES.jpg>]
 Overfull \vbox (104.27542pt too high) has occurred while \output is active []
 
 
-[4 <./NAND.jpg>] <Huntington.png, id=27, 650.43pt x 412.54124pt>
+[5 <./NAND.jpg>] <Huntington.png, id=261, 650.43pt x 412.54124pt>
 File: Huntington.png Graphic file (type png)
 
 <use Huntington.png>
-Package pdftex.def Info: Huntington.png used on input line 110.
+Package pdftex.def Info: Huntington.png used on input line 101.
 (pdftex.def)             Requested size: 227.6539pt x 144.39159pt.
- <DeMorgan.png, id=28, 342.27875pt x 402.50375pt>
+ <DeMorgan.png, id=262, 342.27875pt x 402.50375pt>
 File: DeMorgan.png Graphic file (type png)
 
 <use DeMorgan.png>
-Package pdftex.def Info: DeMorgan.png used on input line 118.
+Package pdftex.def Info: DeMorgan.png used on input line 109.
 (pdftex.def)             Requested size: 136.90906pt x 160.99864pt.
- <Komplement.png, id=29, 636.3775pt x 401.5pt>
+ <Komplement.png, id=263, 636.3775pt x 401.5pt>
 File: Komplement.png Graphic file (type png)
 
 <use Komplement.png>
-Package pdftex.def Info: Komplement.png used on input line 123.
+Package pdftex.def Info: Komplement.png used on input line 114.
 (pdftex.def)             Requested size: 350.0087pt x 220.82567pt.
 
-Overfull \hbox (5.0087pt too wide) in paragraph at lines 123--124
+Overfull \hbox (5.0087pt too wide) in paragraph at lines 114--115
 [][] 
  []
 
-[5 <./Huntington.png> <./DeMorgan.png>]
-<Regneregler.png, id=33, 641.39626pt x 413.545pt>
+[6 <./Huntington.png> <./DeMorgan.png>]
+<Regneregler.png, id=270, 641.39626pt x 413.545pt>
 File: Regneregler.png Graphic file (type png)
  <use Regneregler.png>
-Package pdftex.def Info: Regneregler.png used on input line 128.
+Package pdftex.def Info: Regneregler.png used on input line 119.
 (pdftex.def)             Requested size: 384.84071pt x 248.1289pt.
 
-Overfull \hbox (39.84071pt too wide) in paragraph at lines 128--129
+Overfull \hbox (39.84071pt too wide) in paragraph at lines 119--120
 [][] 
  []
 
-[6 <./Komplement.png> <./Regneregler.png>]
-<Forenkling.png, id=37, 653.44125pt x 282.05376pt>
+[7 <./Komplement.png> <./Regneregler.png>]
+<Forenkling.png, id=278, 653.44125pt x 282.05376pt>
 File: Forenkling.png Graphic file (type png)
  <use Forenkling.png>
-Package pdftex.def Info: Forenkling.png used on input line 161.
+Package pdftex.def Info: Forenkling.png used on input line 152.
 (pdftex.def)             Requested size: 392.06776pt x 169.23355pt.
 
-Overfull \hbox (47.06776pt too wide) in paragraph at lines 161--162
+Overfull \hbox (47.06776pt too wide) in paragraph at lines 152--153
 [][] 
  []
 
-<Forenkling2.png, id=38, 697.60625pt x 320.19624pt>
+<Forenkling2.png, id=279, 697.60625pt x 320.19624pt>
 File: Forenkling2.png Graphic file (type png)
  <use Forenkling2.png>
-Package pdftex.def Info: Forenkling2.png used on input line 166.
+Package pdftex.def Info: Forenkling2.png used on input line 157.
 (pdftex.def)             Requested size: 418.56697pt x 192.11922pt.
 
-Overfull \hbox (73.56697pt too wide) in paragraph at lines 166--167
+Overfull \hbox (73.56697pt too wide) in paragraph at lines 157--158
 [][] 
  []
 
-[7 <./Forenkling.png>] <maksmin.jpg, id=43, 445.665pt x 276.03125pt>
+[8 <./Forenkling.png>] <maksmin.jpg, id=285, 445.665pt x 276.03125pt>
 File: maksmin.jpg Graphic file (type jpg)
 
 <use maksmin.jpg>
-Package pdftex.def Info: maksmin.jpg used on input line 173.
+Package pdftex.def Info: maksmin.jpg used on input line 164.
 (pdftex.def)             Requested size: 356.53249pt x 220.82529pt.
 
-Overfull \hbox (11.53249pt too wide) in paragraph at lines 173--174
+Overfull \hbox (11.53249pt too wide) in paragraph at lines 164--165
 [][] 
  []
 
-[8 <./Forenkling2.png> <./maksmin.jpg>]
-Overfull \hbox (2.3897pt too wide) in paragraph at lines 222--224
+[9 <./Forenkling2.png> <./maksmin.jpg>]
+Overfull \hbox (2.3897pt too wide) in paragraph at lines 213--215
 []\OT1/cmr/m/n/10 For to vari-able finnes det 4 forskjel-lige mak-ster-mer: (x'
 y)(x+y')(x'+y)(x'+y') 
  []
 
-[9] <KarnaD.jpg, id=51, 752.8125pt x 399.4925pt>
+[10] <KarnaD.jpg, id=297, 752.8125pt x 399.4925pt>
 File: KarnaD.jpg Graphic file (type jpg)
  <use KarnaD.jpg>
-Package pdftex.def Info: KarnaD.jpg used on input line 250.
+Package pdftex.def Info: KarnaD.jpg used on input line 241.
 (pdftex.def)             Requested size: 451.69098pt x 239.69734pt.
 
-Overfull \hbox (106.69098pt too wide) in paragraph at lines 250--251
+Overfull \hbox (106.69098pt too wide) in paragraph at lines 241--242
 [][] 
  []
 
-[10] <XOR.jpg, id=55, 386.44376pt x 324.21124pt>
+[11] <XOR.jpg, id=302, 386.44376pt x 324.21124pt>
 File: XOR.jpg Graphic file (type jpg)
  <use XOR.jpg>
-Package pdftex.def Info: XOR.jpg used on input line 255.
+Package pdftex.def Info: XOR.jpg used on input line 246.
 (pdftex.def)             Requested size: 231.86804pt x 194.52824pt.
 
-<X.jpg, id=56, 361.35pt x 593.21625pt>
+<X.jpg, id=303, 361.35pt x 593.21625pt>
 File: X.jpg Graphic file (type jpg)
  <use X.jpg>
-Package pdftex.def Info: X.jpg used on input line 260.
+Package pdftex.def Info: X.jpg used on input line 251.
 (pdftex.def)             Requested size: 252.94327pt x 415.24854pt.
- [11 <./KarnaD.jpg> <./XOR.jpg>] [12 <./X.jpg>] <Nega.jpg, id=63, 146.5475pt x 
-427.5975pt>
+ [12 <./KarnaD.jpg> <./XOR.jpg>] [13 <./X.jpg>] <Nega.jpg, id=317, 146.5475pt x
+ 427.5975pt>
 File: Nega.jpg Graphic file (type jpg)
  <use Nega.jpg>
-Package pdftex.def Info: Nega.jpg used on input line 280.
+Package pdftex.def Info: Nega.jpg used on input line 271.
 (pdftex.def)             Requested size: 102.58253pt x 299.31621pt.
 
-[13 <./Nega.jpg>] <halvadd.jpg, id=68, 646.415pt x 247.92625pt>
+[14 <./Nega.jpg>] <halvadd.jpg, id=323, 646.415pt x 247.92625pt>
 File: halvadd.jpg Graphic file (type jpg)
 
 <use halvadd.jpg>
-Package pdftex.def Info: halvadd.jpg used on input line 310.
+Package pdftex.def Info: halvadd.jpg used on input line 301.
 (pdftex.def)             Requested size: 452.48741pt x 173.54718pt.
 
-Overfull \hbox (107.48741pt too wide) in paragraph at lines 310--311
+Overfull \hbox (107.48741pt too wide) in paragraph at lines 301--302
 [][] 
  []
 
-<Fulladd.jpg, id=69, 329.23pt x 322.20375pt>
+<Fulladd.jpg, id=324, 329.23pt x 322.20375pt>
 File: Fulladd.jpg Graphic file (type jpg)
  <use Fulladd.jpg>
-Package pdftex.def Info: Fulladd.jpg used on input line 319.
+Package pdftex.def Info: Fulladd.jpg used on input line 310.
 (pdftex.def)             Requested size: 230.45941pt x 225.54108pt.
- [14 <./halvadd.jpg>] <adderment.jpg, id=73, 615.29875pt x 220.825pt>
+ [15 <./halvadd.jpg>] <adderment.jpg, id=330, 615.29875pt x 220.825pt>
 File: adderment.jpg Graphic file (type jpg)
  <use adderment.jpg>
-Package pdftex.def Info: adderment.jpg used on input line 325.
+Package pdftex.def Info: adderment.jpg used on input line 316.
 (pdftex.def)             Requested size: 369.1821pt x 132.496pt.
 
-Overfull \hbox (24.1821pt too wide) in paragraph at lines 325--326
+Overfull \hbox (24.1821pt too wide) in paragraph at lines 316--317
 [][] 
  []
 
-<addeks.jpg, id=74, 662.475pt x 299.1175pt>
+<addeks.jpg, id=331, 662.475pt x 299.1175pt>
 File: addeks.jpg Graphic file (type jpg)
  <use addeks.jpg>
-Package pdftex.def Info: addeks.jpg used on input line 330.
+Package pdftex.def Info: addeks.jpg used on input line 321.
 (pdftex.def)             Requested size: 397.48807pt x 179.47188pt.
 
-Overfull \hbox (52.48807pt too wide) in paragraph at lines 330--331
+Overfull \hbox (52.48807pt too wide) in paragraph at lines 321--322
 [][] 
  []
 
-[15 <./Fulladd.jpg> <./adderment.jpg>]
-<komp1.jpg, id=78, 454.69875pt x 114.4275pt>
+[16 <./Fulladd.jpg> <./adderment.jpg>]
+<komp1.jpg, id=338, 454.69875pt x 114.4275pt>
 File: komp1.jpg Graphic file (type jpg)
  <use komp1.jpg>
-Package pdftex.def Info: komp1.jpg used on input line 346.
+Package pdftex.def Info: komp1.jpg used on input line 337.
 (pdftex.def)             Requested size: 272.82135pt x 68.65701pt.
 
-<komp2.jpg, id=79, 550.055pt x 347.2975pt>
+<komp2.jpg, id=339, 550.055pt x 347.2975pt>
 File: komp2.jpg Graphic file (type jpg)
  <use komp2.jpg>
-Package pdftex.def Info: komp2.jpg used on input line 352.
+Package pdftex.def Info: komp2.jpg used on input line 343.
 (pdftex.def)             Requested size: 330.03554pt x 208.3801pt.
- [16 <./addeks.jpg> <./komp1.jpg>] <komp3.jpg, id=83, 552.0625pt x 362.35374pt>
+ [17 <./addeks.jpg> <./komp1.jpg>] <komp3.jpg, id=346, 552.0625pt x 362.35374pt
+>
 File: komp3.jpg Graphic file (type jpg)
  <use komp3.jpg>
-Package pdftex.def Info: komp3.jpg used on input line 357.
+Package pdftex.def Info: komp3.jpg used on input line 348.
 (pdftex.def)             Requested size: 331.24005pt x 217.41393pt.
 
-[17 <./komp2.jpg> <./komp3.jpg>] <decoder.jpg, id=87, 513.92pt x 340.27126pt>
+[18 <./komp2.jpg> <./komp3.jpg>] <decoder.jpg, id=353, 513.92pt x 340.27126pt>
 File: decoder.jpg Graphic file (type jpg)
 
 <use decoder.jpg>
-Package pdftex.def Info: decoder.jpg used on input line 367.
+Package pdftex.def Info: decoder.jpg used on input line 358.
 (pdftex.def)             Requested size: 308.35437pt x 204.16432pt.
- <enkoder.jpg, id=88, 370.38374pt x 320.19624pt>
+ <enkoder.jpg, id=354, 370.38374pt x 320.19624pt>
 File: enkoder.jpg Graphic file (type jpg)
 
 <use enkoder.jpg>
-Package pdftex.def Info: enkoder.jpg used on input line 375.
+Package pdftex.def Info: enkoder.jpg used on input line 366.
 (pdftex.def)             Requested size: 222.23195pt x 192.11922pt.
- [18 <./decoder.jpg>]
-<MUX.jpg, id=92, 503.8825pt x 292.09125pt>
+ [19 <./decoder.jpg>]
+<MUX.jpg, id=361, 503.8825pt x 292.09125pt>
 File: MUX.jpg Graphic file (type jpg)
  <use MUX.jpg>
-Package pdftex.def Info: MUX.jpg used on input line 388.
+Package pdftex.def Info: MUX.jpg used on input line 379.
 (pdftex.def)             Requested size: 302.33183pt x 175.25609pt.
 
-<MUX2.jpg, id=93, 707.64375pt x 311.1625pt>
+<MUX2.jpg, id=362, 707.64375pt x 311.1625pt>
 File: MUX2.jpg Graphic file (type jpg)
  <use MUX2.jpg>
-Package pdftex.def Info: MUX2.jpg used on input line 393.
+Package pdftex.def Info: MUX2.jpg used on input line 384.
 (pdftex.def)             Requested size: 424.58952pt x 186.69894pt.
 
-Overfull \hbox (79.58952pt too wide) in paragraph at lines 393--394
+Overfull \hbox (79.58952pt too wide) in paragraph at lines 384--385
 [][] 
  []
 
-[19 <./enkoder.jpg> <./MUX.jpg>] <DEMUX.jpg, id=98, 330.23375pt x 257.96375pt>
+[20 <./enkoder.jpg> <./MUX.jpg>]
+<DEMUX.jpg, id=369, 330.23375pt x 257.96375pt>
 File: DEMUX.jpg Graphic file (type jpg)
-
-<use DEMUX.jpg>
-Package pdftex.def Info: DEMUX.jpg used on input line 402.
+ <use DEMUX.jpg>
+Package pdftex.def Info: DEMUX.jpg used on input line 393.
 (pdftex.def)             Requested size: 198.14177pt x 154.77943pt.
- [20 <./MUX2.jpg> <./DEMUX.jpg>]
-<flanke.jpg, id=102, 362.35374pt x 138.5175pt>
+ [21 <./MUX2.jpg> <./DEMUX.jpg>] <flanke.jpg, id=376, 362.35374pt x 138.5175pt>
 File: flanke.jpg Graphic file (type jpg)
- <use flanke.jpg>
-Package pdftex.def Info: flanke.jpg used on input line 431.
-(pdftex.def)             Requested size: 217.41393pt x 83.11113pt.
 
-<klokking.jpg, id=103, 677.53125pt x 410.53375pt>
+<use flanke.jpg>
+Package pdftex.def Info: flanke.jpg used on input line 422.
+(pdftex.def)             Requested size: 217.41393pt x 83.11113pt.
+ <klokking.jpg, id=377, 677.53125pt x 410.53375pt>
 File: klokking.jpg Graphic file (type jpg)
- <use klokking.jpg>
-Package pdftex.def Info: klokking.jpg used on input line 447.
+
+<use klokking.jpg>
+Package pdftex.def Info: klokking.jpg used on input line 438.
 (pdftex.def)             Requested size: 406.52188pt x 246.32214pt.
 
-Overfull \hbox (61.52188pt too wide) in paragraph at lines 447--448
+Overfull \hbox (61.52188pt too wide) in paragraph at lines 438--439
 [][] 
  []
 
-[21 <./flanke.jpg>] <srlatch.png, id=107, 200.75pt x 125.46875pt>
+[22 <./flanke.jpg>] <srlatch.png, id=383, 200.75pt x 125.46875pt>
 File: srlatch.png Graphic file (type png)
 
 <use srlatch.png>
-Package pdftex.def Info: srlatch.png used on input line 469.
+Package pdftex.def Info: srlatch.png used on input line 460.
 (pdftex.def)             Requested size: 120.45091pt x 75.28181pt.
- [22 <./klokking.jpg>]
-<srL.png, id=112, 464.73625pt x 168.63pt>
+ [23 <./klokking.jpg>]
+<srL.png, id=390, 464.73625pt x 168.63pt>
 File: srL.png Graphic file (type png)
  <use srL.png>
-Package pdftex.def Info: srL.png used on input line 474.
+Package pdftex.def Info: srL.png used on input line 465.
 (pdftex.def)             Requested size: 278.84389pt x 101.17877pt.
 
-<dL.png, id=113, 541.02126pt x 454.69875pt>
+<dL.png, id=391, 541.02126pt x 454.69875pt>
 File: dL.png Graphic file (type png)
  <use dL.png>
-Package pdftex.def Info: dL.png used on input line 491.
+Package pdftex.def Info: dL.png used on input line 482.
 (pdftex.def)             Requested size: 324.61525pt x 272.82135pt.
- [23 <./srlatch.png> <./srL.png (PNG copy)>] <flip-flop.jpg, id=118, 634.37pt x
+ [24 <./srlatch.png> <./srL.png (PNG copy)>] <flip-flop.jpg, id=399, 634.37pt x
  680.5425pt>
 File: flip-flop.jpg Graphic file (type jpg)
 
 <use flip-flop.jpg>
-Package pdftex.def Info: flip-flop.jpg used on input line 504.
+Package pdftex.def Info: flip-flop.jpg used on input line 495.
 (pdftex.def)             Requested size: 380.62492pt x 408.32864pt.
 
-Overfull \hbox (35.62492pt too wide) in paragraph at lines 504--505
+Overfull \hbox (35.62492pt too wide) in paragraph at lines 495--496
 [][] 
  []
 
-[24 <./dL.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 510.
+[25 <./dL.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 501.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 510.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 501.
 
-[25 <./flip-flop.jpg>] <srFlip.jpg, id=126, 298.11375pt x 356.0803pt>
+[26 <./flip-flop.jpg>] <srFlip.jpg, id=411, 298.11375pt x 356.0803pt>
 File: srFlip.jpg Graphic file (type jpg)
 
 <use srFlip.jpg>
-Package pdftex.def Info: srFlip.jpg used on input line 527.
+Package pdftex.def Info: srFlip.jpg used on input line 518.
 (pdftex.def)             Requested size: 178.86963pt x 213.64983pt.
- <jkFlip.jpg, id=127, 556.0775pt x 308.15125pt>
+ <jkFlip.jpg, id=412, 556.0775pt x 308.15125pt>
 File: jkFlip.jpg Graphic file (type jpg)
 
 <use jkFlip.jpg>
-Package pdftex.def Info: jkFlip.jpg used on input line 535.
+Package pdftex.def Info: jkFlip.jpg used on input line 526.
 (pdftex.def)             Requested size: 333.64908pt x 184.89217pt.
- [26 <./srFlip.jpg>]
-<jkFlip2.jpg, id=131, 234.8775pt x 436.63126pt>
+ [27 <./srFlip.jpg>]
+<jkFlip2.jpg, id=418, 234.8775pt x 436.63126pt>
 File: jkFlip2.jpg Graphic file (type jpg)
  <use jkFlip2.jpg>
-Package pdftex.def Info: jkFlip2.jpg used on input line 540.
+Package pdftex.def Info: jkFlip2.jpg used on input line 531.
 (pdftex.def)             Requested size: 140.92758pt x 261.98077pt.
 
-<dFlip.jpg, id=132, 592.2125pt x 398.48875pt>
+<dFlip.jpg, id=419, 592.2125pt x 398.48875pt>
 File: dFlip.jpg Graphic file (type jpg)
  <use dFlip.jpg>
-Package pdftex.def Info: dFlip.jpg used on input line 548.
+Package pdftex.def Info: dFlip.jpg used on input line 539.
 (pdftex.def)             Requested size: 355.33023pt x 239.0951pt.
 
-Overfull \hbox (10.33023pt too wide) in paragraph at lines 548--549
+Overfull \hbox (10.33023pt too wide) in paragraph at lines 539--540
 [][] 
  []
 
-[27 <./jkFlip.jpg> <./jkFlip2.jpg>]
-<dFlip2.jpg, id=136, 318.43968pt x 430.60875pt>
+[28 <./jkFlip.jpg> <./jkFlip2.jpg>]
+<dFlip2.jpg, id=426, 318.43968pt x 430.60875pt>
 File: dFlip2.jpg Graphic file (type jpg)
  <use dFlip2.jpg>
-Package pdftex.def Info: dFlip2.jpg used on input line 553.
+Package pdftex.def Info: dFlip2.jpg used on input line 544.
 (pdftex.def)             Requested size: 191.06528pt x 258.36723pt.
- [28 <./dFlip.jpg>] <tFlip.jpg, id=140, 665.48625pt x 421.575pt>
+ [29 <./dFlip.jpg>] <tFlip.jpg, id=432, 665.48625pt x 421.575pt>
 File: tFlip.jpg Graphic file (type jpg)
  <use tFlip.jpg>
-Package pdftex.def Info: tFlip.jpg used on input line 561.
+Package pdftex.def Info: tFlip.jpg used on input line 552.
 (pdftex.def)             Requested size: 399.29483pt x 252.94695pt.
 
-Overfull \hbox (54.29483pt too wide) in paragraph at lines 561--562
+Overfull \hbox (54.29483pt too wide) in paragraph at lines 552--553
 [][] 
  []
 
-[29 <./dFlip2.jpg>] <tFlip2.jpg, id=144, 266.49562pt x 410.2828pt>
+[30 <./dFlip2.jpg>] <tFlip2.jpg, id=438, 266.49562pt x 410.2828pt>
 File: tFlip2.jpg Graphic file (type jpg)
 
 <use tFlip2.jpg>
-Package pdftex.def Info: tFlip2.jpg used on input line 566.
+Package pdftex.def Info: tFlip2.jpg used on input line 557.
 (pdftex.def)             Requested size: 159.89859pt x 246.17157pt.
- [30 <./tFlip.jpg>] [31 <./tFlip2.jpg>]
-<ekstil.jpg, id=152, 350.30875pt x 679.53876pt>
+ [31 <./tFlip.jpg>] [32 <./tFlip2.jpg>]
+<ekstil.jpg, id=451, 350.30875pt x 679.53876pt>
 File: ekstil.jpg Graphic file (type jpg)
  <use ekstil.jpg>
-Package pdftex.def Info: ekstil.jpg used on input line 617.
+Package pdftex.def Info: ekstil.jpg used on input line 608.
 (pdftex.def)             Requested size: 210.18686pt x 407.72641pt.
- [32]
-<tilstanddiagram.jpg, id=156, 554.07pt x 232.87pt>
+ [33]
+<tilstanddiagram.jpg, id=456, 554.07pt x 232.87pt>
 File: tilstanddiagram.jpg Graphic file (type jpg)
  <use tilstanddiagram.jpg>
-Package pdftex.def Info: tilstanddiagram.jpg used on input line 626.
+Package pdftex.def Info: tilstanddiagram.jpg used on input line 617.
 (pdftex.def)             Requested size: 332.44456pt x 139.72307pt.
 
-[33 <./ekstil.jpg>]
+[34 <./ekstil.jpg>]
 File: tilstanddiagram.jpg Graphic file (type jpg)
  <use tilstanddiagram.jpg>
-Package pdftex.def Info: tilstanddiagram.jpg used on input line 631.
+Package pdftex.def Info: tilstanddiagram.jpg used on input line 622.
 (pdftex.def)             Requested size: 332.44456pt x 139.72307pt.
 
-<tilstandeks.jpg, id=160, 614.295pt x 286.06876pt>
+<tilstandeks.jpg, id=462, 614.295pt x 286.06876pt>
 File: tilstandeks.jpg Graphic file (type jpg)
  <use tilstandeks.jpg>
-Package pdftex.def Info: tilstandeks.jpg used on input line 636.
+Package pdftex.def Info: tilstandeks.jpg used on input line 627.
 (pdftex.def)             Requested size: 368.57983pt x 171.64258pt.
 
-Overfull \hbox (23.57983pt too wide) in paragraph at lines 636--637
+Overfull \hbox (23.57983pt too wide) in paragraph at lines 627--628
 [][] 
  []
 
-[34 <./tilstanddiagram.jpg>] <red.jpg, id=164, 515.9275pt x 432.61626pt>
+[35 <./tilstanddiagram.jpg>] <red.jpg, id=469, 515.9275pt x 432.61626pt>
 File: red.jpg Graphic file (type jpg)
 
 <use red.jpg>
-Package pdftex.def Info: red.jpg used on input line 646.
+Package pdftex.def Info: red.jpg used on input line 637.
 (pdftex.def)             Requested size: 309.55888pt x 259.57176pt.
- [35 <./tilstandeks.jpg>]
-<tilordning.jpg, id=168, 695.59875pt x 379.4175pt>
+ [36 <./tilstandeks.jpg>]
+<tilordning.jpg, id=475, 695.59875pt x 379.4175pt>
 File: tilordning.jpg Graphic file (type jpg)
  <use tilordning.jpg>
-Package pdftex.def Info: tilordning.jpg used on input line 662.
+Package pdftex.def Info: tilordning.jpg used on input line 653.
 (pdftex.def)             Requested size: 417.36247pt x 227.65225pt.
 
-Overfull \hbox (72.36247pt too wide) in paragraph at lines 662--663
+Overfull \hbox (72.36247pt too wide) in paragraph at lines 653--654
 [][] 
  []
 
-[36 <./red.jpg>] <ubrukt.jpg, id=172, 715.67375pt x 373.395pt>
+[37 <./red.jpg>] <ubrukt.jpg, id=482, 715.67375pt x 373.395pt>
 File: ubrukt.jpg Graphic file (type jpg)
 
 <use ubrukt.jpg>
-Package pdftex.def Info: ubrukt.jpg used on input line 668.
+Package pdftex.def Info: ubrukt.jpg used on input line 659.
 (pdftex.def)             Requested size: 429.40756pt x 224.03873pt.
 
-Overfull \hbox (84.40756pt too wide) in paragraph at lines 668--669
+Overfull \hbox (84.40756pt too wide) in paragraph at lines 659--660
 [][] 
  []
 
-[37 <./tilordning.jpg>] <prosedyre.jpg, id=177, 559.08875pt x 336.25626pt>
+[38 <./tilordning.jpg>] <prosedyre.jpg, id=488, 559.08875pt x 336.25626pt>
 File: prosedyre.jpg Graphic file (type jpg)
 
 <use prosedyre.jpg>
-Package pdftex.def Info: prosedyre.jpg used on input line 674.
+Package pdftex.def Info: prosedyre.jpg used on input line 665.
 (pdftex.def)             Requested size: 335.45583pt x 201.75531pt.
- [38 <./ubrukt.jpg>] [39 <./prosedyre.jpg>] (./inf1400.aux) ) 
+ [39 <./ubrukt.jpg>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 676.
+ [40 <./prosedyre.jpg>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 676.
+ (./inf1400.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 676.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 676.
+Package rerunfilecheck Info: File `inf1400.out' has not changed.
+(rerunfilecheck)             Checksum: F5BD322397B9893284BD6F1E0281D52E;3048.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 676.
+ ) 
 Here is how much of TeX's memory you used:
- 4616 strings out of 493029
- 60870 string characters out of 6136234
- 131944 words of memory out of 5000000
- 8047 multiletter control sequences out of 15000+600000
+ 8297 strings out of 493029
+ 116248 string characters out of 6136234
+ 211987 words of memory out of 5000000
+ 11569 multiletter control sequences out of 15000+600000
  9425 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,8n,35p,237b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on inf1400.pdf (39 pages, 1585627 bytes).
+ 29i,8n,35p,237b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb>
+Output written on inf1400.pdf (40 pages, 1599426 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 567 PDF objects out of 1000 (max. 8388607)
+ 463 compressed objects within 5 object streams
+ 132 named destinations out of 1000 (max. 500000)
+ 578 words of extra memory for PDF output out of 10000 (max. 10000000)
 
