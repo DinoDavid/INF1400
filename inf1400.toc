@@ -3,8 +3,9 @@
 \contentsline {subsection}{\numberline {1.2}Konvertering:}{3}{subsection.1.2}
 \contentsline {subsubsection}{\numberline {1.2.1}Konvertering fra grunntall r til desimaltall:}{3}{subsubsection.1.2.1}
 \contentsline {subsubsection}{\numberline {1.2.2}Konvertering av desimal til bin\IeC {\ae }r:}{4}{subsubsection.1.2.2}
-\contentsline {subsubsection}{\numberline {1.2.3}Konvertering fra desimal til grunntall \IeC {\textquotedblleft }r\IeC {\textquotedblright }:}{4}{subsubsection.1.2.3}
-\contentsline {subsubsection}{\numberline {1.2.4}Sannhetstabell:}{5}{subsubsection.1.2.4}
+\contentsline {subsubsection}{\numberline {1.2.3}Konvertering av kommatall i desimal til bin\IeC {\ae }r :}{4}{subsubsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.4}Konvertering fra desimal til grunntall \IeC {\textquotedblleft }r\IeC {\textquotedblright }:}{4}{subsubsection.1.2.4}
+\contentsline {subsubsection}{\numberline {1.2.5}Sannhetstabell:}{5}{subsubsection.1.2.5}
 \contentsline {subsection}{\numberline {1.3}Huntington's postulater}{7}{subsection.1.3}
 \contentsline {section}{\numberline {2}Boolsk algebra:}{7}{section.2}
 \contentsline {subsection}{\numberline {2.1}Boolske funksjoner med sannhetstabell}{9}{subsection.2.1}
@@ -47,7 +48,7 @@
 \contentsline {subsection}{\numberline {8.1}Transistor som bryter}{42}{subsection.8.1}
 \contentsline {subsubsection}{\numberline {8.1.1}nMOS}{42}{subsubsection.8.1.1}
 \contentsline {subsubsection}{\numberline {8.1.2}pMOS}{42}{subsubsection.8.1.2}
-\contentsline {subsubsection}{\numberline {8.1.3}pMOS + cMOS}{43}{subsubsection.8.1.3}
+\contentsline {subsubsection}{\numberline {8.1.3}pMOS + nMOS}{43}{subsubsection.8.1.3}
 \contentsline {subsection}{\numberline {8.2}MOS transistorer}{43}{subsection.8.2}
 \contentsline {subsection}{\numberline {8.3}Fakta og regler}{44}{subsection.8.3}
 \contentsline {subsection}{\numberline {8.4}Serie og parallelkobling}{45}{subsection.8.4}
