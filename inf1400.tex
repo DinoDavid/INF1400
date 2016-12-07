@@ -790,7 +790,7 @@
 	\subsection{Komplementær logikk}
 	
 	Eks på en funksjon implementert ved CMOS
-	$Y = (A \times B) + (C \times D) NOT$
+	$Y = \overline{(A \times B) + (C \times D)}$
 	
 	Nedtrekket vil bestå av nMOS transistorer og vi har at Y bare kan bli 0 når $(A \times B) + (C \times D) = 1$ Som forutsetter at A*B eller C*D er på. Nedtrekket må da bestå av to grener med seriekoblete nMOS transistorer.
 	
@@ -798,7 +798,7 @@
 	
 	\begin{figure}[H]
 		\includegraphics[scale = 0.6]{CMOSeks.jpg}
-		\caption{Komplementær CMOS port for funksjonen $Y = (A \times B)+(C \times D) NOT$}
+		\caption{Komplementær CMOS port for funksjonen $Y = \overline{(A \times B)+(C \times D)}$}
 	\end{figure}
 	
 	
