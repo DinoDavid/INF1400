@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.13)  7 DEC 2016 19:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.13)  8 DEC 2016 15:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -698,423 +698,442 @@ Overfull \hbox (9.32288pt too wide) in paragraph at lines 103--104
 Overfull \vbox (104.27542pt too high) has occurred while \output is active []
 
 
-[6 <./NAND.jpg>] <Huntington.png, id=320, 650.43pt x 412.54124pt>
-File: Huntington.png Graphic file (type png)
+[6 <./NAND.jpg>] <nor.png, id=320, 494.84875pt x 240.9pt>
+File: nor.png Graphic file (type png)
+ <use nor.png>
+Package pdftex.def Info: nor.png used on input line 109.
+(pdftex.def)             Requested size: 296.91154pt x 144.5411pt.
 
-<use Huntington.png>
-Package pdftex.def Info: Huntington.png used on input line 109.
+<NasX.PNG, id=322, 419.5675pt x 179.67125pt>
+File: NasX.PNG Graphic file (type png)
+ <use NasX.PNG>
+Package pdftex.def Info: NasX.PNG used on input line 114.
+(pdftex.def)             Requested size: 251.74243pt x 107.80356pt.
+
+<Huntington.png, id=323, 650.43pt x 412.54124pt>
+File: Huntington.png Graphic file (type png)
+ <use Huntington.png>
+Package pdftex.def Info: Huntington.png used on input line 121.
 (pdftex.def)             Requested size: 227.6539pt x 144.39159pt.
- <DeMorgan.png, id=321, 342.27875pt x 402.50375pt>
+ [7 <./nor.png> <./NasX.PNG>] <DeMorgan.png, id=333, 342.27875pt x 402.50375pt>
 File: DeMorgan.png Graphic file (type png)
 
 <use DeMorgan.png>
-Package pdftex.def Info: DeMorgan.png used on input line 117.
+Package pdftex.def Info: DeMorgan.png used on input line 129.
 (pdftex.def)             Requested size: 136.90906pt x 160.99864pt.
- <Komplement.png, id=322, 636.3775pt x 401.5pt>
+ <Komplement.png, id=334, 636.3775pt x 401.5pt>
 File: Komplement.png Graphic file (type png)
 
 <use Komplement.png>
-Package pdftex.def Info: Komplement.png used on input line 122.
+Package pdftex.def Info: Komplement.png used on input line 134.
 (pdftex.def)             Requested size: 350.0087pt x 220.82567pt.
 
-Overfull \hbox (5.0087pt too wide) in paragraph at lines 122--123
+Overfull \hbox (5.0087pt too wide) in paragraph at lines 134--135
 [][] 
  []
 
-[7 <./Huntington.png> <./DeMorgan.png>]
-<Regneregler.png, id=331, 641.39626pt x 413.545pt>
+[8 <./Huntington.png> <./DeMorgan.png>]
+<Regneregler.png, id=341, 641.39626pt x 413.545pt>
 File: Regneregler.png Graphic file (type png)
  <use Regneregler.png>
-Package pdftex.def Info: Regneregler.png used on input line 127.
+Package pdftex.def Info: Regneregler.png used on input line 139.
 (pdftex.def)             Requested size: 384.84071pt x 248.1289pt.
 
-Overfull \hbox (39.84071pt too wide) in paragraph at lines 127--128
+Overfull \hbox (39.84071pt too wide) in paragraph at lines 139--140
 [][] 
  []
 
-[8 <./Komplement.png> <./Regneregler.png>]
-<Forenkling.png, id=338, 653.44125pt x 282.05376pt>
+[9 <./Komplement.png> <./Regneregler.png>]
+<Forenkling.png, id=348, 653.44125pt x 282.05376pt>
 File: Forenkling.png Graphic file (type png)
  <use Forenkling.png>
-Package pdftex.def Info: Forenkling.png used on input line 160.
+Package pdftex.def Info: Forenkling.png used on input line 172.
 (pdftex.def)             Requested size: 392.06776pt x 169.23355pt.
 
-Overfull \hbox (47.06776pt too wide) in paragraph at lines 160--161
+Overfull \hbox (47.06776pt too wide) in paragraph at lines 172--173
 [][] 
  []
 
-<Forenkling2.png, id=339, 697.60625pt x 320.19624pt>
+<Forenkling2.png, id=349, 697.60625pt x 320.19624pt>
 File: Forenkling2.png Graphic file (type png)
  <use Forenkling2.png>
-Package pdftex.def Info: Forenkling2.png used on input line 165.
+Package pdftex.def Info: Forenkling2.png used on input line 177.
 (pdftex.def)             Requested size: 418.56697pt x 192.11922pt.
 
-Overfull \hbox (73.56697pt too wide) in paragraph at lines 165--166
+Overfull \hbox (73.56697pt too wide) in paragraph at lines 177--178
 [][] 
  []
 
-[9 <./Forenkling.png>] <maksmin.jpg, id=345, 445.665pt x 276.03125pt>
+[10 <./Forenkling.png>] <maksmin.jpg, id=355, 445.665pt x 276.03125pt>
 File: maksmin.jpg Graphic file (type jpg)
 
 <use maksmin.jpg>
-Package pdftex.def Info: maksmin.jpg used on input line 172.
+Package pdftex.def Info: maksmin.jpg used on input line 184.
 (pdftex.def)             Requested size: 356.53249pt x 220.82529pt.
 
-Overfull \hbox (11.53249pt too wide) in paragraph at lines 172--173
+Overfull \hbox (11.53249pt too wide) in paragraph at lines 184--185
 [][] 
  []
 
-[10 <./Forenkling2.png> <./maksmin.jpg>]
-Overfull \hbox (2.3897pt too wide) in paragraph at lines 221--223
+[11 <./Forenkling2.png> <./maksmin.jpg>]
+Overfull \hbox (2.3897pt too wide) in paragraph at lines 233--235
 []\OT1/cmr/m/n/10 For to vari-able finnes det 4 forskjel-lige mak-ster-mer: (x'
 y)(x+y')(x'+y)(x'+y') 
  []
 
-[11] <KarnaD.jpg, id=357, 752.8125pt x 399.4925pt>
+[12] <KarnaD.jpg, id=367, 752.8125pt x 399.4925pt>
 File: KarnaD.jpg Graphic file (type jpg)
  <use KarnaD.jpg>
-Package pdftex.def Info: KarnaD.jpg used on input line 249.
+Package pdftex.def Info: KarnaD.jpg used on input line 261.
 (pdftex.def)             Requested size: 451.69098pt x 239.69734pt.
 
-Overfull \hbox (106.69098pt too wide) in paragraph at lines 249--250
+Overfull \hbox (106.69098pt too wide) in paragraph at lines 261--262
 [][] 
  []
 
-[12] <XOR.jpg, id=362, 386.44376pt x 324.21124pt>
+[13] <XOR.jpg, id=373, 386.44376pt x 324.21124pt>
 File: XOR.jpg Graphic file (type jpg)
  <use XOR.jpg>
-Package pdftex.def Info: XOR.jpg used on input line 254.
+Package pdftex.def Info: XOR.jpg used on input line 266.
 (pdftex.def)             Requested size: 231.86804pt x 194.52824pt.
 
-<X.jpg, id=363, 361.35pt x 593.21625pt>
+<X.jpg, id=374, 361.35pt x 593.21625pt>
 File: X.jpg Graphic file (type jpg)
  <use X.jpg>
-Package pdftex.def Info: X.jpg used on input line 259.
+Package pdftex.def Info: X.jpg used on input line 271.
 (pdftex.def)             Requested size: 252.94327pt x 415.24854pt.
- [13 <./KarnaD.jpg> <./XOR.jpg>] [14 <./X.jpg>] <Nega.jpg, id=376, 146.5475pt x
- 427.5975pt>
+ [14 <./KarnaD.jpg> <./XOR.jpg>] <x.jpg, id=381, 486.81876pt x 258.9675pt>
+File: x.jpg Graphic file (type jpg)
+ <use x.jpg>
+Package pdftex.def Info: x.jpg used on input line 276.
+(pdftex.def)             Requested size: 340.7708pt x 181.27599pt.
+ [15 <./X.jpg>]
+<Nega.jpg, id=387, 146.5475pt x 427.5975pt>
 File: Nega.jpg Graphic file (type jpg)
  <use Nega.jpg>
-Package pdftex.def Info: Nega.jpg used on input line 279.
+Package pdftex.def Info: Nega.jpg used on input line 296.
 (pdftex.def)             Requested size: 102.58253pt x 299.31621pt.
-
-[15 <./Nega.jpg>] <halvadd.jpg, id=382, 646.415pt x 247.92625pt>
+ [16 <./x.jpg>]
+[17 <./Nega.jpg>] <halvadd.jpg, id=398, 646.415pt x 247.92625pt>
 File: halvadd.jpg Graphic file (type jpg)
 
 <use halvadd.jpg>
-Package pdftex.def Info: halvadd.jpg used on input line 309.
+Package pdftex.def Info: halvadd.jpg used on input line 326.
 (pdftex.def)             Requested size: 452.48741pt x 173.54718pt.
 
-Overfull \hbox (107.48741pt too wide) in paragraph at lines 309--310
+Overfull \hbox (107.48741pt too wide) in paragraph at lines 326--327
 [][] 
  []
 
-<Fulladd.jpg, id=383, 329.23pt x 322.20375pt>
+<Fulladd.jpg, id=399, 329.23pt x 322.20375pt>
 File: Fulladd.jpg Graphic file (type jpg)
  <use Fulladd.jpg>
-Package pdftex.def Info: Fulladd.jpg used on input line 318.
+Package pdftex.def Info: Fulladd.jpg used on input line 335.
 (pdftex.def)             Requested size: 230.45941pt x 225.54108pt.
- [16 <./halvadd.jpg>] <adderment.jpg, id=389, 615.29875pt x 220.825pt>
+ [18 <./halvadd.jpg>] <adderment.jpg, id=405, 615.29875pt x 220.825pt>
 File: adderment.jpg Graphic file (type jpg)
  <use adderment.jpg>
-Package pdftex.def Info: adderment.jpg used on input line 324.
+Package pdftex.def Info: adderment.jpg used on input line 341.
 (pdftex.def)             Requested size: 369.1821pt x 132.496pt.
 
-Overfull \hbox (24.1821pt too wide) in paragraph at lines 324--325
+Overfull \hbox (24.1821pt too wide) in paragraph at lines 341--342
 [][] 
  []
 
-<addeks.jpg, id=390, 662.475pt x 299.1175pt>
+<addeks.jpg, id=406, 662.475pt x 299.1175pt>
 File: addeks.jpg Graphic file (type jpg)
  <use addeks.jpg>
-Package pdftex.def Info: addeks.jpg used on input line 329.
+Package pdftex.def Info: addeks.jpg used on input line 346.
 (pdftex.def)             Requested size: 397.48807pt x 179.47188pt.
 
-Overfull \hbox (52.48807pt too wide) in paragraph at lines 329--330
+Overfull \hbox (52.48807pt too wide) in paragraph at lines 346--347
 [][] 
  []
 
-[17 <./Fulladd.jpg> <./adderment.jpg>]
-<komp1.jpg, id=397, 454.69875pt x 114.4275pt>
+[19 <./Fulladd.jpg> <./adderment.jpg>]
+<komp1.jpg, id=414, 454.69875pt x 114.4275pt>
 File: komp1.jpg Graphic file (type jpg)
  <use komp1.jpg>
-Package pdftex.def Info: komp1.jpg used on input line 345.
+Package pdftex.def Info: komp1.jpg used on input line 362.
 (pdftex.def)             Requested size: 272.82135pt x 68.65701pt.
 
-<komp2.jpg, id=398, 550.055pt x 347.2975pt>
+<komp2.jpg, id=415, 550.055pt x 347.2975pt>
 File: komp2.jpg Graphic file (type jpg)
  <use komp2.jpg>
-Package pdftex.def Info: komp2.jpg used on input line 351.
+Package pdftex.def Info: komp2.jpg used on input line 368.
 (pdftex.def)             Requested size: 330.03554pt x 208.3801pt.
- [18 <./addeks.jpg> <./komp1.jpg>] <komp3.jpg, id=405, 552.0625pt x 362.35374pt
+ [20 <./addeks.jpg> <./komp1.jpg>] <komp3.jpg, id=422, 552.0625pt x 362.35374pt
 >
 File: komp3.jpg Graphic file (type jpg)
  <use komp3.jpg>
-Package pdftex.def Info: komp3.jpg used on input line 356.
+Package pdftex.def Info: komp3.jpg used on input line 373.
 (pdftex.def)             Requested size: 331.24005pt x 217.41393pt.
 
-[19 <./komp2.jpg> <./komp3.jpg>] <decoder.jpg, id=413, 513.92pt x 340.27126pt>
+[21 <./komp2.jpg> <./komp3.jpg>] <decoder.jpg, id=429, 513.92pt x 340.27126pt>
 File: decoder.jpg Graphic file (type jpg)
 
 <use decoder.jpg>
-Package pdftex.def Info: decoder.jpg used on input line 366.
+Package pdftex.def Info: decoder.jpg used on input line 383.
 (pdftex.def)             Requested size: 308.35437pt x 204.16432pt.
- <enkoder.jpg, id=414, 370.38374pt x 320.19624pt>
+ <enkoder.jpg, id=430, 370.38374pt x 320.19624pt>
 File: enkoder.jpg Graphic file (type jpg)
 
 <use enkoder.jpg>
-Package pdftex.def Info: enkoder.jpg used on input line 374.
+Package pdftex.def Info: enkoder.jpg used on input line 391.
 (pdftex.def)             Requested size: 222.23195pt x 192.11922pt.
- [20 <./decoder.jpg>]
-<MUX.jpg, id=420, 503.8825pt x 292.09125pt>
+ [22 <./decoder.jpg>]
+<MUX.jpg, id=436, 503.8825pt x 292.09125pt>
 File: MUX.jpg Graphic file (type jpg)
  <use MUX.jpg>
-Package pdftex.def Info: MUX.jpg used on input line 387.
+Package pdftex.def Info: MUX.jpg used on input line 404.
 (pdftex.def)             Requested size: 302.33183pt x 175.25609pt.
 
-<MUX2.jpg, id=421, 707.64375pt x 311.1625pt>
+<MUX2.jpg, id=437, 707.64375pt x 311.1625pt>
 File: MUX2.jpg Graphic file (type jpg)
  <use MUX2.jpg>
-Package pdftex.def Info: MUX2.jpg used on input line 392.
+Package pdftex.def Info: MUX2.jpg used on input line 409.
 (pdftex.def)             Requested size: 424.58952pt x 186.69894pt.
 
-Overfull \hbox (79.58952pt too wide) in paragraph at lines 392--393
+Overfull \hbox (79.58952pt too wide) in paragraph at lines 409--410
 [][] 
  []
 
-[21 <./enkoder.jpg> <./MUX.jpg>]
-<DEMUX.jpg, id=428, 330.23375pt x 257.96375pt>
+[23 <./enkoder.jpg> <./MUX.jpg>]
+<DEMUX.jpg, id=444, 330.23375pt x 257.96375pt>
 File: DEMUX.jpg Graphic file (type jpg)
  <use DEMUX.jpg>
-Package pdftex.def Info: DEMUX.jpg used on input line 401.
+Package pdftex.def Info: DEMUX.jpg used on input line 418.
 (pdftex.def)             Requested size: 198.14177pt x 154.77943pt.
- [22 <./MUX2.jpg> <./DEMUX.jpg>] <flanke.jpg, id=435, 362.35374pt x 138.5175pt>
+ [24 <./MUX2.jpg> <./DEMUX.jpg>] <flanke.jpg, id=451, 362.35374pt x 138.5175pt>
 File: flanke.jpg Graphic file (type jpg)
 
 <use flanke.jpg>
-Package pdftex.def Info: flanke.jpg used on input line 430.
+Package pdftex.def Info: flanke.jpg used on input line 447.
 (pdftex.def)             Requested size: 217.41393pt x 83.11113pt.
- <klokking.jpg, id=436, 677.53125pt x 410.53375pt>
+ <klokking.jpg, id=452, 677.53125pt x 410.53375pt>
 File: klokking.jpg Graphic file (type jpg)
 
 <use klokking.jpg>
-Package pdftex.def Info: klokking.jpg used on input line 446.
+Package pdftex.def Info: klokking.jpg used on input line 463.
 (pdftex.def)             Requested size: 406.52188pt x 246.32214pt.
 
-Overfull \hbox (61.52188pt too wide) in paragraph at lines 446--447
+Overfull \hbox (61.52188pt too wide) in paragraph at lines 463--464
 [][] 
  []
 
-[23 <./flanke.jpg>] <srlatch.png, id=442, 200.75pt x 125.46875pt>
+[25 <./flanke.jpg>] <srlatch.png, id=460, 200.75pt x 125.46875pt>
 File: srlatch.png Graphic file (type png)
 
 <use srlatch.png>
-Package pdftex.def Info: srlatch.png used on input line 468.
+Package pdftex.def Info: srlatch.png used on input line 485.
 (pdftex.def)             Requested size: 120.45091pt x 75.28181pt.
- [24 <./klokking.jpg>]
-<srL.png, id=450, 464.73625pt x 168.63pt>
+ [26 <./klokking.jpg>]
+<srL.png, id=466, 464.73625pt x 168.63pt>
 File: srL.png Graphic file (type png)
  <use srL.png>
-Package pdftex.def Info: srL.png used on input line 473.
+Package pdftex.def Info: srL.png used on input line 490.
 (pdftex.def)             Requested size: 278.84389pt x 101.17877pt.
 
-<dL.png, id=451, 541.02126pt x 454.69875pt>
+<dL.png, id=467, 541.02126pt x 454.69875pt>
 File: dL.png Graphic file (type png)
  <use dL.png>
-Package pdftex.def Info: dL.png used on input line 490.
+Package pdftex.def Info: dL.png used on input line 507.
 (pdftex.def)             Requested size: 324.61525pt x 272.82135pt.
- [25 <./srlatch.png> <./srL.png (PNG copy)>] <flip-flop.jpg, id=460, 634.37pt x
+ [27 <./srlatch.png> <./srL.png (PNG copy)>] <flip-flop.jpg, id=475, 634.37pt x
  680.5425pt>
 File: flip-flop.jpg Graphic file (type jpg)
 
 <use flip-flop.jpg>
-Package pdftex.def Info: flip-flop.jpg used on input line 503.
+Package pdftex.def Info: flip-flop.jpg used on input line 520.
 (pdftex.def)             Requested size: 380.62492pt x 408.32864pt.
 
-Overfull \hbox (35.62492pt too wide) in paragraph at lines 503--504
+Overfull \hbox (35.62492pt too wide) in paragraph at lines 520--521
 [][] 
  []
 
-[26 <./dL.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 509.
+[28 <./dL.png>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 526.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 509.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 526.
 
-[27 <./flip-flop.jpg>] <srFlip.jpg, id=471, 298.11375pt x 356.0803pt>
+[29 <./flip-flop.jpg>] <srFlip.jpg, id=486, 298.11375pt x 356.0803pt>
 File: srFlip.jpg Graphic file (type jpg)
 
 <use srFlip.jpg>
-Package pdftex.def Info: srFlip.jpg used on input line 526.
+Package pdftex.def Info: srFlip.jpg used on input line 543.
 (pdftex.def)             Requested size: 178.86963pt x 213.64983pt.
- <jkFlip.jpg, id=472, 556.0775pt x 308.15125pt>
+ <jkFlip.jpg, id=487, 556.0775pt x 308.15125pt>
 File: jkFlip.jpg Graphic file (type jpg)
 
 <use jkFlip.jpg>
-Package pdftex.def Info: jkFlip.jpg used on input line 534.
+Package pdftex.def Info: jkFlip.jpg used on input line 551.
 (pdftex.def)             Requested size: 333.64908pt x 184.89217pt.
- [28 <./srFlip.jpg>]
-<jkFlip2.jpg, id=478, 234.8775pt x 436.63126pt>
+ [30 <./srFlip.jpg>]
+<jkFlip2.jpg, id=493, 234.8775pt x 436.63126pt>
 File: jkFlip2.jpg Graphic file (type jpg)
  <use jkFlip2.jpg>
-Package pdftex.def Info: jkFlip2.jpg used on input line 539.
+Package pdftex.def Info: jkFlip2.jpg used on input line 556.
 (pdftex.def)             Requested size: 140.92758pt x 261.98077pt.
 
-<dFlip.jpg, id=479, 592.2125pt x 398.48875pt>
+<dFlip.jpg, id=494, 592.2125pt x 398.48875pt>
 File: dFlip.jpg Graphic file (type jpg)
  <use dFlip.jpg>
-Package pdftex.def Info: dFlip.jpg used on input line 547.
+Package pdftex.def Info: dFlip.jpg used on input line 564.
 (pdftex.def)             Requested size: 355.33023pt x 239.0951pt.
 
-Overfull \hbox (10.33023pt too wide) in paragraph at lines 547--548
+Overfull \hbox (10.33023pt too wide) in paragraph at lines 564--565
 [][] 
  []
 
-[29 <./jkFlip.jpg> <./jkFlip2.jpg>]
-<dFlip2.jpg, id=486, 318.43968pt x 430.60875pt>
+[31 <./jkFlip.jpg> <./jkFlip2.jpg>]
+<dFlip2.jpg, id=502, 318.43968pt x 430.60875pt>
 File: dFlip2.jpg Graphic file (type jpg)
  <use dFlip2.jpg>
-Package pdftex.def Info: dFlip2.jpg used on input line 552.
+Package pdftex.def Info: dFlip2.jpg used on input line 569.
 (pdftex.def)             Requested size: 191.06528pt x 258.36723pt.
- [30 <./dFlip.jpg>] <tFlip.jpg, id=492, 665.48625pt x 421.575pt>
+ [32 <./dFlip.jpg>] <tFlip.jpg, id=508, 665.48625pt x 421.575pt>
 File: tFlip.jpg Graphic file (type jpg)
  <use tFlip.jpg>
-Package pdftex.def Info: tFlip.jpg used on input line 560.
+Package pdftex.def Info: tFlip.jpg used on input line 577.
 (pdftex.def)             Requested size: 399.29483pt x 252.94695pt.
 
-Overfull \hbox (54.29483pt too wide) in paragraph at lines 560--561
+Overfull \hbox (54.29483pt too wide) in paragraph at lines 577--578
 [][] 
  []
 
-[31 <./dFlip2.jpg>] <tFlip2.jpg, id=499, 266.49562pt x 410.2828pt>
+[33 <./dFlip2.jpg>] <tFlip2.jpg, id=514, 266.49562pt x 410.2828pt>
 File: tFlip2.jpg Graphic file (type jpg)
 
 <use tFlip2.jpg>
-Package pdftex.def Info: tFlip2.jpg used on input line 565.
+Package pdftex.def Info: tFlip2.jpg used on input line 582.
 (pdftex.def)             Requested size: 159.89859pt x 246.17157pt.
- [32 <./tFlip.jpg>] [33 <./tFlip2.jpg>]
-<ekstil.jpg, id=510, 350.30875pt x 679.53876pt>
+ [34 <./tFlip.jpg>] [35 <./tFlip2.jpg>]
+<ekstil.jpg, id=525, 350.30875pt x 679.53876pt>
 File: ekstil.jpg Graphic file (type jpg)
  <use ekstil.jpg>
-Package pdftex.def Info: ekstil.jpg used on input line 616.
+Package pdftex.def Info: ekstil.jpg used on input line 633.
 (pdftex.def)             Requested size: 210.18686pt x 407.72641pt.
- [34]
-<tilstanddiagram.jpg, id=515, 554.07pt x 232.87pt>
+ [36]
+<tilstanddiagram.jpg, id=530, 554.07pt x 232.87pt>
 File: tilstanddiagram.jpg Graphic file (type jpg)
  <use tilstanddiagram.jpg>
-Package pdftex.def Info: tilstanddiagram.jpg used on input line 625.
+Package pdftex.def Info: tilstanddiagram.jpg used on input line 642.
 (pdftex.def)             Requested size: 332.44456pt x 139.72307pt.
 
-[35 <./ekstil.jpg>]
+[37 <./ekstil.jpg>]
 File: tilstanddiagram.jpg Graphic file (type jpg)
  <use tilstanddiagram.jpg>
-Package pdftex.def Info: tilstanddiagram.jpg used on input line 630.
+Package pdftex.def Info: tilstanddiagram.jpg used on input line 647.
 (pdftex.def)             Requested size: 332.44456pt x 139.72307pt.
 
-<tilstandeks.jpg, id=521, 614.295pt x 286.06876pt>
+<tilstandeks.jpg, id=537, 614.295pt x 286.06876pt>
 File: tilstandeks.jpg Graphic file (type jpg)
  <use tilstandeks.jpg>
-Package pdftex.def Info: tilstandeks.jpg used on input line 635.
+Package pdftex.def Info: tilstandeks.jpg used on input line 652.
 (pdftex.def)             Requested size: 368.57983pt x 171.64258pt.
 
-Overfull \hbox (23.57983pt too wide) in paragraph at lines 635--636
+Overfull \hbox (23.57983pt too wide) in paragraph at lines 652--653
 [][] 
  []
 
-[36 <./tilstanddiagram.jpg>] <red.jpg, id=528, 515.9275pt x 432.61626pt>
+[38 <./tilstanddiagram.jpg>] <red.jpg, id=544, 515.9275pt x 432.61626pt>
 File: red.jpg Graphic file (type jpg)
 
 <use red.jpg>
-Package pdftex.def Info: red.jpg used on input line 645.
+Package pdftex.def Info: red.jpg used on input line 662.
 (pdftex.def)             Requested size: 309.55888pt x 259.57176pt.
- [37 <./tilstandeks.jpg>]
-<tilordning.jpg, id=535, 695.59875pt x 379.4175pt>
+ [39 <./tilstandeks.jpg>]
+<tilordning.jpg, id=550, 695.59875pt x 379.4175pt>
 File: tilordning.jpg Graphic file (type jpg)
  <use tilordning.jpg>
-Package pdftex.def Info: tilordning.jpg used on input line 660.
+Package pdftex.def Info: tilordning.jpg used on input line 677.
 (pdftex.def)             Requested size: 417.36247pt x 227.65225pt.
 
-Overfull \hbox (72.36247pt too wide) in paragraph at lines 660--661
+Overfull \hbox (72.36247pt too wide) in paragraph at lines 677--678
 [][] 
  []
 
-[38 <./red.jpg>] <ubrukt.jpg, id=541, 715.67375pt x 373.395pt>
+[40 <./red.jpg>] <ubrukt.jpg, id=556, 715.67375pt x 373.395pt>
 File: ubrukt.jpg Graphic file (type jpg)
 
 <use ubrukt.jpg>
-Package pdftex.def Info: ubrukt.jpg used on input line 666.
+Package pdftex.def Info: ubrukt.jpg used on input line 683.
 (pdftex.def)             Requested size: 429.40756pt x 224.03873pt.
 
-Overfull \hbox (84.40756pt too wide) in paragraph at lines 666--667
+Overfull \hbox (84.40756pt too wide) in paragraph at lines 683--684
 [][] 
  []
 
-[39 <./tilordning.jpg>] <prosedyre.jpg, id=547, 559.08875pt x 336.25626pt>
+[41 <./tilordning.jpg>] <prosedyre.jpg, id=562, 559.08875pt x 336.25626pt>
 File: prosedyre.jpg Graphic file (type jpg)
 
 <use prosedyre.jpg>
-Package pdftex.def Info: prosedyre.jpg used on input line 672.
+Package pdftex.def Info: prosedyre.jpg used on input line 689.
 (pdftex.def)             Requested size: 335.45583pt x 201.75531pt.
- [40 <./ubrukt.jpg>] [41 <./prosedyre.jpg>] [42]
-<CMOSinv.jpg, id=562, 575.14874pt x 431.6125pt>
+ [42 <./ubrukt.jpg>] [43 <./prosedyre.jpg>] [44]
+<CMOSinv.jpg, id=578, 575.14874pt x 431.6125pt>
 File: CMOSinv.jpg Graphic file (type jpg)
  <use CMOSinv.jpg>
-Package pdftex.def Info: CMOSinv.jpg used on input line 740.
+Package pdftex.def Info: CMOSinv.jpg used on input line 760.
 (pdftex.def)             Requested size: 345.0919pt x 258.96948pt.
- [43 <./CMOSinv.jpg>] <OPPned.jpg, id=569, 391.4625pt x 443.6575pt>
+ [45] [46 <./CMOSinv.jpg>] <OPPned.jpg, id=589, 391.4625pt x 443.6575pt>
 File: OPPned.jpg Graphic file (type jpg)
  <use OPPned.jpg>
-Package pdftex.def Info: OPPned.jpg used on input line 765.
+Package pdftex.def Info: OPPned.jpg used on input line 791.
 (pdftex.def)             Requested size: 234.8793pt x 266.19655pt.
- [44]
-<nMOSserie.jpg, id=575, 459.7175pt x 228.855pt>
+
+[47] <nMOSserie.jpg, id=594, 459.7175pt x 228.855pt>
 File: nMOSserie.jpg Graphic file (type jpg)
  <use nMOSserie.jpg>
-Package pdftex.def Info: nMOSserie.jpg used on input line 773.
+Package pdftex.def Info: nMOSserie.jpg used on input line 799.
 (pdftex.def)             Requested size: 275.83263pt x 137.31404pt.
- [45 <./OPPned.jpg>] <pMOSpara.jpg, id=581, 406.51875pt x 344.28625pt>
+
+[48 <./OPPned.jpg>] <pMOSpara.jpg, id=600, 406.51875pt x 344.28625pt>
+File: pMOSpara.jpg Graphic file (type jpg)
+
+<use pMOSpara.jpg>
+Package pdftex.def Info: pMOSpara.jpg used on input line 806.
+(pdftex.def)             Requested size: 243.91312pt x 206.57333pt.
+ <pMOSserie.jpg, id=601, 419.5675pt x 226.8475pt>
+File: pMOSserie.jpg Graphic file (type jpg)
+
+<use pMOSserie.jpg>
+Package pdftex.def Info: pMOSserie.jpg used on input line 813.
+(pdftex.def)             Requested size: 251.74243pt x 136.10954pt.
+ [49 <./nMOSserie.jpg> <./pMOSpara.jpg>]
 File: pMOSpara.jpg Graphic file (type jpg)
  <use pMOSpara.jpg>
-Package pdftex.def Info: pMOSpara.jpg used on input line 780.
+Package pdftex.def Info: pMOSpara.jpg used on input line 820.
 (pdftex.def)             Requested size: 243.91312pt x 206.57333pt.
 
-<pMOSserie.jpg, id=582, 419.5675pt x 226.8475pt>
-File: pMOSserie.jpg Graphic file (type jpg)
- <use pMOSserie.jpg>
-Package pdftex.def Info: pMOSserie.jpg used on input line 787.
-(pdftex.def)             Requested size: 251.74243pt x 136.10954pt.
- [46 <./nMOSserie.jpg> <./pMOSpara.jpg>]
-File: pMOSpara.jpg Graphic file (type jpg)
- <use pMOSpara.jpg>
-Package pdftex.def Info: pMOSpara.jpg used on input line 794.
-(pdftex.def)             Requested size: 243.91312pt x 206.57333pt.
- [47 <./pMOSserie.jpg>]
-<CMOSeks.jpg, id=595, 269.005pt x 388.45125pt>
+[50 <./pMOSserie.jpg>] <CMOSeks.jpg, id=615, 269.005pt x 388.45125pt>
 File: CMOSeks.jpg Graphic file (type jpg)
- <use CMOSeks.jpg>
-Package pdftex.def Info: CMOSeks.jpg used on input line 808.
+
+<use CMOSeks.jpg>
+Package pdftex.def Info: CMOSeks.jpg used on input line 834.
 (pdftex.def)             Requested size: 161.40424pt x 233.07254pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 814.
- [48 <./CMOSeks.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 814.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 840.
+ [51 <./CMOSeks.jpg>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 840.
  (./inf1400.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 814.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 814.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 840.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 840.
 Package rerunfilecheck Info: File `inf1400.out' has not changed.
-(rerunfilecheck)             Checksum: 97BBF3B63E1751EA73542178312C0D18;3882.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 814.
+(rerunfilecheck)             Checksum: 6AE417A71353ABC17AF01D4990C8FE1A;3892.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 840.
  ) 
 Here is how much of TeX's memory you used:
- 8364 strings out of 493029
- 117211 string characters out of 6136234
+ 8386 strings out of 493029
+ 117420 string characters out of 6136234
  211987 words of memory out of 5000000
- 11604 multiletter control sequences out of 15000+600000
+ 11616 multiletter control sequences out of 15000+600000
  9425 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,8n,35p,433b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,8n,35p,459b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texl
@@ -1126,10 +1145,10 @@ public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy7.pfb>
-Output written on inf1400.pdf (48 pages, 1710052 bytes).
+Output written on inf1400.pdf (51 pages, 1753387 bytes).
 PDF statistics:
- 675 PDF objects out of 1000 (max. 8388607)
- 556 compressed objects within 6 object streams
- 158 named destinations out of 1000 (max. 500000)
- 696 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 696 PDF objects out of 1000 (max. 8388607)
+ 570 compressed objects within 6 object streams
+ 164 named destinations out of 1000 (max. 500000)
+ 711 words of extra memory for PDF output out of 10000 (max. 10000000)
 

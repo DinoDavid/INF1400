@@ -104,6 +104,18 @@
 		\caption{Logiske porter som 2 inputs NAND-porter}
 	\end{figure}
 	
+		
+	\begin{figure}[H]
+		\includegraphics[scale=0.6]{nor.png}
+		\caption{Logiske porter som NOR-porter}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\includegraphics[scale=0.6]{NasX.PNG}
+		\caption{XNOR laget av OR-porter}
+	\end{figure}
+	
+	
 	\subsection{Huntington's postulater}
 	\begin{figure}[H]
 		\includegraphics[scale=0.35]{Huntington.png}
@@ -257,6 +269,11 @@
 	
 	\begin{figure}[H]
 		\includegraphics[scale = 0.7]{X.jpg}
+		\caption{XNOR og XOR}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\includegraphics[scale = 0.7]{x.jpg}
 		\caption{XNOR og XOR}
 	\end{figure}
 	
@@ -673,7 +690,10 @@
 		\caption{Designprosedyre}
 	\end{figure}
 	
-	\subsection{Eksempel}
+	\subsection{Viktig for eksamen}
+	Begreper besvarelsen må inneholde om omhandle for å kunne nå full poeng uttelling er: 
+	
+	Kunne bruke ord som handling og aksjon, tilstandstabell, tilstandsdiagram, tilstandskoder og tilordning av tilstand, input og output, relasjonen mellom flip - flop og antall tilstander, begrunnelse for valget av type flip - flop,	velge mer enn bare 2 tilstander, vise til kombinatorisk logikk for styringen av tilstandsmaskinen med input fra og til sensorer, implemenstasjon på portnivå, ubrukte tilstander, redusering av tilstander.
 	
 	\section{Datamaskinarkitektur}
 	\subsection{Pipelining}
@@ -761,34 +781,40 @@
 	
 	I komplementær CMOS logikk vil alltid en og bare en av opptrekk- og nedtrekksnettverkee være på.
 	
+	AND = (*)
+	NAND = $\overline{(*)}$
+	
+	OR = (+)
+	NOR = $\overline{(+)}$
+	
 	\begin{figure}[H]
 		\includegraphics[scale = 0.6]{OPPned.jpg}
 		\caption{Generell logisk port med opptrekk bestående av pMOS transistorer og nedtrekk bestående av nMOS transistorer}
 	\end{figure}
 	
 	\subsection{Serie og parallelkobling}
-	nMOS i serie = NAND dersom GND = 0 på minst en inngang, A*B
+	nMOS i serie = NAND dersom GND = 0 på minst en inngang, $\overline{A*B}$
 	
 	\begin{figure}[H]
 		\includegraphics[scale = 0.6]{nMOSserie.jpg}
 		\caption{nMOS transistorer i serie}
 	\end{figure}
 	
-	nMOS i parallell = NOR dersom Vdd = 1 på minst en inngang, A+B
+	nMOS i parallell = NOR dersom Vdd = 1 på minst en inngang, $\overline{A+B}$
 	
 	\begin{figure}[H]
 		\includegraphics[scale = 0.6]{pMOSpara.jpg}
 		\caption{pMOS transistorer i parallellkobling}
 	\end{figure}
 	
-	pMOS i serie = NOR dersom Vdd = 1 på minst en inngang, A+B
+	pMOS i serie = NOR dersom Vdd = 1 på minst en inngang,$\overline{A+B}$
 	
 	\begin{figure}[H]
 		\includegraphics[scale = 0.6]{pMOSserie.jpg}
 		\caption{pMOS transistorer i serie}
 	\end{figure}
 	
-	pMOS i parallell = NAND dersom GND = 0 på minst en inngang, A*B
+	pMOS i parallell = NAND dersom GND = 0 på minst en inngang, $\overline{A*B}$
 	
 	\begin{figure}[H]
 		\includegraphics[scale = 0.6]{pMOSpara.jpg}
