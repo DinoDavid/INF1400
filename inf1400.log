@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.13)  8 DEC 2016 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.9.13)  12 DEC 2016 13:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1123,12 +1123,12 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 840.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 840.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 840.
 Package rerunfilecheck Info: File `inf1400.out' has not changed.
-(rerunfilecheck)             Checksum: 6AE417A71353ABC17AF01D4990C8FE1A;3892.
+(rerunfilecheck)             Checksum: 34E813188F7601C61B6CDA74071A47A7;3882.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 840.
  ) 
 Here is how much of TeX's memory you used:
  8386 strings out of 493029
- 117420 string characters out of 6136234
+ 117410 string characters out of 6136234
  211987 words of memory out of 5000000
  11616 multiletter control sequences out of 15000+600000
  9425 words of font info for 39 fonts, out of 8000000 for 9000
@@ -1145,7 +1145,7 @@ public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy7.pfb>
-Output written on inf1400.pdf (51 pages, 1753387 bytes).
+Output written on inf1400.pdf (51 pages, 1752133 bytes).
 PDF statistics:
  696 PDF objects out of 1000 (max. 8388607)
  570 compressed objects within 6 object streams
